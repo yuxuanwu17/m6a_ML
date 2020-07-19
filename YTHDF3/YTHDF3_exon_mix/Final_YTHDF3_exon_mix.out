@@ -1,0 +1,163 @@
+During startup - Warning message:
+Setting LC_CTYPE failed, using "C" 
+Loading required package: BSgenome
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:parallel':
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which, which.max, which.min
+
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: 'S4Vectors'
+
+The following object is masked from 'package:base':
+
+    expand.grid
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomicRanges
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: 'Biostrings'
+
+The following object is masked from 'package:base':
+
+    strsplit
+
+Loading required package: rtracklayer
+Loading required package: GenomicFeatures
+Loading required package: AnnotationDbi
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: gplots
+
+Attaching package: 'gplots'
+
+The following object is masked from 'package:rtracklayer':
+
+    space
+
+The following object is masked from 'package:IRanges':
+
+    space
+
+The following object is masked from 'package:S4Vectors':
+
+    space
+
+The following object is masked from 'package:stats':
+
+    lowess
+
+Type 'citation("pROC")' for a citation.
+
+Attaching package: 'pROC'
+
+The following objects are masked from 'package:IRanges':
+
+    cov, var
+
+The following objects are masked from 'package:S4Vectors':
+
+    cov, var
+
+The following object is masked from 'package:BiocGenerics':
+
+    var
+
+The following objects are masked from 'package:stats':
+
+    cov, smooth, var
+
+Loading required package: lattice
+Loading required package: ggplot2
+
+Attaching package: 'matrixStats'
+
+The following objects are masked from 'package:Biobase':
+
+    anyMissing, rowMedians
+
+
+Attaching package: 'dplyr'
+
+The following object is masked from 'package:matrixStats':
+
+    count
+
+The following object is masked from 'package:AnnotationDbi':
+
+    select
+
+The following object is masked from 'package:Biobase':
+
+    combine
+
+The following objects are masked from 'package:Biostrings':
+
+    collapse, intersect, setdiff, setequal, union
+
+The following object is masked from 'package:XVector':
+
+    slice
+
+The following objects are masked from 'package:GenomicRanges':
+
+    intersect, setdiff, union
+
+The following object is masked from 'package:GenomeInfoDb':
+
+    intersect
+
+The following objects are masked from 'package:IRanges':
+
+    collapse, desc, intersect, setdiff, slice, union
+
+The following objects are masked from 'package:S4Vectors':
+
+    first, intersect, rename, setdiff, setequal, union
+
+The following objects are masked from 'package:BiocGenerics':
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+line search fails -1.226452 0.0136897 1.173477e-05 7.502108e-07 -1.210289e-08 -4.237613e-10 -1.423425e-13line search fails -1.173061 0.03011422 1.100081e-05 4.418127e-07 -1.042496e-08 -6.513083e-11 -1.147117e-13line search fails -1.255724 0.01409713 1.234221e-05 7.539121e-07 -1.337773e-08 -4.092192e-10 -1.654192e-13line search fails -1.190608 0.02543652 1.366208e-05 5.298796e-07 -1.323147e-08 -1.14709e-10 -1.808301e-13line search fails -1.138098 0.0255526 1.216528e-05 -2.682455e-07 -8.711336e-09 3.487514e-10 -1.060694e-13Error in `$<-.data.frame`(`*tmp*`, "pred_class", value = list(Neg = c(NA,  : 
+  replacement has 6916 rows, data has 3458
+Calls: $<- -> $<-.data.frame
+In addition: There were 14 warnings (use warnings() to see them)
+Execution halted

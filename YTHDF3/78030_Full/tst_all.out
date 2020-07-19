@@ -1,0 +1,1720 @@
+During startup - Warning message:
+Setting LC_CTYPE failed, using "C" 
+Loading required package: BSgenome
+Loading required package: methods
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:parallel':
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, append, as.data.frame, cbind, colMeans, colnames,
+    colSums, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, lengths, Map, mapply, match,
+    mget, order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rowMeans, rownames, rowSums, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which, which.max, which.min
+
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: 'S4Vectors'
+
+The following object is masked from 'package:base':
+
+    expand.grid
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomicRanges
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: 'Biostrings'
+
+The following object is masked from 'package:base':
+
+    strsplit
+
+Loading required package: rtracklayer
+Loading required package: GenomicFeatures
+Loading required package: AnnotationDbi
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: gplots
+
+Attaching package: 'gplots'
+
+The following object is masked from 'package:rtracklayer':
+
+    space
+
+The following object is masked from 'package:IRanges':
+
+    space
+
+The following object is masked from 'package:S4Vectors':
+
+    space
+
+The following object is masked from 'package:stats':
+
+    lowess
+
+Type 'citation("pROC")' for a citation.
+
+Attaching package: 'pROC'
+
+The following objects are masked from 'package:IRanges':
+
+    cov, var
+
+The following objects are masked from 'package:S4Vectors':
+
+    cov, var
+
+The following object is masked from 'package:BiocGenerics':
+
+    var
+
+The following objects are masked from 'package:stats':
+
+    cov, smooth, var
+
+
+Attaching package: 'kernlab'
+
+The following object is masked from 'package:Biostrings':
+
+    type
+
+GRanges object with 7253 ranges and 0 metadata columns:
+         seqnames                 ranges strand
+            <Rle>              <IRanges>  <Rle>
+     [1]     chr1 [ 81778987,  81778991]      +
+     [2]     chr6 [ 10509187,  10509191]      +
+     [3]    chr11 [ 72136540,  72136544]      -
+     [4]    chr10 [105605380, 105605384]      -
+     [5]     chr7 [129272400, 129272404]      +
+     ...      ...                    ...    ...
+  [7249]    chr16 [ 75491796,  75491800]      -
+  [7250]    chr14 [ 71256929,  71256933]      -
+  [7251]     chr3 [ 65877470,  65877474]      -
+  [7252]    chr11 [118319045, 118319049]      +
+  [7253]     chr6 [ 74193118,  74193122]      +
+  -------
+  seqinfo: 93 sequences from an unspecified genome; no seqlengths
+Loading required package: lattice
+Loading required package: ggplot2
+
+Attaching package: 'ggplot2'
+
+The following object is masked from 'package:kernlab':
+
+    alpha
+
+
+Attaching package: 'matrixStats'
+
+The following objects are masked from 'package:Biobase':
+
+    anyMissing, rowMedians
+
+
+Attaching package: 'dplyr'
+
+The following object is masked from 'package:matrixStats':
+
+    count
+
+The following object is masked from 'package:AnnotationDbi':
+
+    select
+
+The following object is masked from 'package:Biobase':
+
+    combine
+
+The following objects are masked from 'package:Biostrings':
+
+    collapse, intersect, setdiff, setequal, union
+
+The following object is masked from 'package:XVector':
+
+    slice
+
+The following objects are masked from 'package:GenomicRanges':
+
+    intersect, setdiff, union
+
+The following object is masked from 'package:GenomeInfoDb':
+
+    intersect
+
+The following objects are masked from 'package:IRanges':
+
+    collapse, desc, intersect, setdiff, slice, union
+
+The following objects are masked from 'package:S4Vectors':
+
+    first, intersect, rename, setdiff, setequal, union
+
+The following objects are masked from 'package:BiocGenerics':
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 1,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 1,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 1,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 1,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+line search fails -1.210176 0.01248508 1.013877e-05 1.717715e-07 -7.858684e-09 -8.278119e-12 -7.967883e-14line search fails -1.204486 0.01813182 1.870691e-05 -4.072046e-07 -1.377189e-08 4.328854e-10 -2.578058e-13line search fails -1.180681 0.02372748 1.738159e-05 -1.445611e-06 -1.227887e-08 1.032435e-09 -2.149188e-13line search fails -1.202892 0.01427063 1.256147e-05 3.965465e-07 -9.519793e-09 -9.444421e-11 -1.1962e-13line search fails -1.21056 0.02475188 2.474758e-05 -8.139075e-07 -1.816162e-08 8.251354e-10 -4.501277e-13line search fails -1.146277 0.0242241 1.239163e-05 -1.259393e-06 -8.422377e-09 8.542223e-10 -1.054428e-13line search fails -1.227171 0.0207594 2.489251e-05 2.40747e-07 -1.917237e-08 1.987499e-10 -4.772005e-13line search fails -1.185836 0.02238155 3.974605e-05 -4.416809e-06 -2.758106e-08 2.98539e-09 -1.109424e-12line search fails -1.218598 0.01861469 1.459896e-05 4.748622e-07 -1.136858e-08 -7.810046e-11 -1.660066e-13line search fails -1.162496 0.02225715 1.378006e-05 -3.306601e-07 -9.688242e-09 3.650472e-10 -1.336252e-13line search fails -1.159088 0.03260088 1.757666e-05 -1.723085e-06 -1.213389e-08 1.277706e-09 -2.154749e-13line search fails -1.184231 0.01571085 2.371032e-05 -1.501042e-07 -1.682158e-08 3.167274e-10 -3.988926e-13line search fails -1.170235 0.01141134 2.395003e-05 -1.455554e-06 -1.65164e-08 9.66171e-10 -3.969746e-13line search fails -1.196069 0.01610758 2.001596e-05 3.624629e-07 -1.187946e-08 1.013785e-11 -2.377751e-13Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.251877 0.03436871 4.883328e-05 -1.28003e-06 -3.756557e-08 1.75248e-09 -1.836693e-12line search fails -1.226854 0.03156788 2.217984e-05 -9.433811e-07 -1.719114e-08 9.512767e-10 -3.821942e-13line search fails -1.206748 0.03987892 3.218383e-05 -2.483024e-06 -2.352436e-08 2.147205e-09 -7.624355e-13line search fails -1.160915 0.03617497 2.217498e-05 -2.81232e-06 -1.52991e-08 2.011859e-09 -3.449152e-13line search fails -1.216086 0.04024678 1.756299e-05 -6.944357e-07 -1.340123e-08 8.131921e-10 -2.359304e-13line search fails -1.19337 0.02873893 3.832667e-05 -4.48426e-06 -2.691012e-08 3.15003e-09 -1.045501e-12line search fails -1.195365 0.03171275 5.018387e-05 -4.186195e-06 -2.819784e-08 2.619388e-09 -1.426042e-12Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 20 warnings (use warnings() to see them)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.175787 0.03096127 4.077111e-05 -3.805981e-06 -2.75527e-08 2.848513e-09 -1.134196e-12line search fails -1.239946 0.0193662 3.319571e-05 -9.4859e-07 -2.589105e-08 9.321102e-10 -8.603559e-13line search fails -1.215855 0.01816755 4.466947e-05 -1.780418e-06 -3.262036e-08 1.494897e-09 -1.459796e-12line search fails -1.251955 0.03741811 3.711595e-05 -1.30848e-06 -2.907379e-08 1.593225e-09 -1.081186e-12line search fails -1.201157 0.03419655 3.999384e-05 -2.445587e-06 -2.876793e-08 2.180209e-09 -1.155872e-12line search fails -1.184367 0.03097139 3.992518e-05 -4.586365e-06 -2.75663e-08 3.266081e-09 -1.115569e-12line search fails -1.160581 0.0250636 2.91225e-05 -3.594688e-06 -2.010138e-08 2.413708e-09 -5.940791e-13line search fails -1.2372 0.01387504 3.240917e-05 4.41928e-07 -2.510388e-08 4.765035e-11 -8.13575e-13line search fails -1.20414 0.0175149 5.091311e-05 -9.493567e-07 -3.644489e-08 1.087243e-09 -1.856555e-12line search fails -1.229697 0.02959734 1.178548e-05 -1.143104e-07 -9.2524e-09 2.833002e-10 -1.090763e-13line search fails -1.200237 0.02692603 3.327585e-05 -1.477722e-06 -2.407598e-08 1.360167e-09 -8.031589e-13line search fails -1.188903 0.03312922 4.433651e-05 -4.731169e-06 -3.099976e-08 3.513464e-09 -1.391044e-12line search fails -1.228946 0.01690031 2.737414e-05 -7.485875e-07 -2.123718e-08 6.962824e-10 -5.818709e-13line search fails -1.186706 0.02785555 2.997499e-05 -1.714688e-06 -2.142931e-08 1.442728e-09 -6.448174e-13line search fails -1.159788 0.01667256 2.924994e-05 -2.577516e-06 -1.983012e-08 1.710553e-09 -5.844389e-13line search fails -1.227831 0.02022314 2.162975e-05 -1.481412e-07 -1.670089e-08 3.441931e-10 -3.612872e-13line search fails -1.216379 0.03065788 3.524782e-05 -1.122029e-06 -2.577767e-08 1.2684e-09 -9.1003e-13line search fails -1.184456 0.03310237 2.68886e-05 -2.377704e-06 -1.87541e-08 1.822371e-09 -5.086047e-13line search fails -1.25324 0.009932886 3.80908e-05 2.807594e-07 -2.969713e-08 7.389464e-11 -1.131167e-12line search fails -1.228633 0.01796177 4.748361e-05 -1.260019e-06 -3.474186e-08 1.215195e-09 -1.6512e-12line search fails -1.195466 0.03188742 3.762948e-05 -3.825606e-06 -2.628476e-08 2.826913e-09 -9.998966e-13line search fails -1.186957 0.02104264 4.768703e-05 -3.145133e-06 -3.248333e-08 2.339345e-09 -1.556391e-12line search fails -1.210468 0.01729586 1.799943e-05 1.118068e-07 -1.37674e-08 1.392969e-10 -2.477898e-13line search fails -1.177055 0.02891748 1.939201e-05 -7.50921e-07 -1.387242e-08 7.489543e-10 -2.695765e-13line search fails -1.223844 0.01787215 1.88746e-05 -8.172803e-09 -1.458194e-08 2.11818e-10 -2.752299e-13line search fails -1.182991 0.03181709 2.376255e-05 -1.288574e-06 -1.677644e-08 1.144378e-09 -4.001256e-13line search fails -1.178037 0.03219205 2.672478e-05 -2.920734e-06 -1.841743e-08 2.095842e-09 -4.983233e-13line search fails -1.220361 0.01879535 1.935886e-05 3.092751e-07 -1.487324e-08 5.707621e-11 -2.879113e-13line search fails -1.135532 0.03011886 1.446805e-05 -1.404796e-06 -9.693479e-09 1.01253e-09 -1.416681e-13line search fails -1.222331 0.02121687 1.652491e-05 -1.176022e-08 -1.280087e-08 2.23017e-10 -2.115358e-13line search fails -1.176735 0.02726942 1.931601e-05 -8.55833e-07 -1.373927e-08 7.783305e-10 -2.660539e-13line search fails -1.163393 0.03115053 1.959833e-05 -2.056483e-06 -1.351745e-08 1.470564e-09 -2.679436e-13line search fails -1.176768 0.01799464 2.119075e-05 -4.806408e-07 -1.47459e-08 4.80551e-10 -3.127076e-13line search fails -1.154302 0.02111516 1.971855e-05 -1.433192e-06 -1.31872e-08 1.01569e-09 -2.614883e-13line search fails -1.153325 0.03064896 2.787475e-05 -3.325201e-06 -1.504662e-08 1.847501e-09 -4.25564e-13Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.235472 0.008193431 2.206539e-05 2.671924e-08 -1.718676e-08 1.023524e-10 -3.792299e-13line search fails -1.194737 0.02420719 2.308174e-05 -1.0714e-06 -1.658256e-08 9.276958e-10 -3.837482e-13line search fails -1.188312 0.02440447 2.109288e-05 -7.953267e-07 -1.503957e-08 7.362883e-10 -3.178135e-13line search fails -1.145172 0.02658582 1.321693e-05 -1.218253e-06 -8.945928e-09 8.578584e-10 -1.192828e-13line search fails -1.212434 0.01206061 1.606412e-05 -1.853076e-08 -1.229059e-08 1.353071e-10 -1.974401e-13line search fails -1.184366 0.01583579 1.990509e-05 -6.97208e-07 -1.42086e-08 5.737314e-10 -2.832235e-13line search fails -1.163888 0.01503891 1.79734e-05 -1.995573e-06 -1.24399e-08 1.233945e-09 -2.260498e-13line search fails -1.226371 0.01877979 2.123841e-05 2.732263e-07 -1.619876e-08 9.736165e-11 -3.440094e-13line search fails -1.18689 0.02647987 2.06021e-05 -5.71703e-07 -1.455584e-08 6.335516e-10 -3.002432e-13line search fails -1.167695 0.02568668 3.266749e-05 -3.903659e-06 -1.782208e-08 2.104792e-09 -5.904191e-13Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 29 warnings (use warnings() to see them)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.238628 0.03016236 3.06333e-05 -8.702382e-07 -2.385835e-08 1.063936e-09 -7.317861e-13line search fails -1.189607 0.03286252 2.978418e-05 -1.705272e-06 -2.119049e-08 1.527002e-09 -6.337454e-13line search fails -1.174094 0.02495197 3.586821e-05 -3.566766e-06 -2.469049e-08 2.504317e-09 -8.945362e-13line search fails -1.241939 0.02875504 2.966331e-05 -4.852635e-07 -2.325208e-08 8.095437e-10 -6.901265e-13line search fails -1.182496 0.02663442 3.134358e-05 -3.388356e-06 -2.177178e-08 2.3629e-09 -6.904119e-13line search fails -1.231538 0.01815688 2.815751e-05 -2.648595e-07 -2.167903e-08 4.691063e-10 -6.105517e-13line search fails -1.217375 0.02461115 4.302582e-05 -9.32754e-07 -3.134162e-08 1.171244e-09 -1.349591e-12line search fails -1.163366 0.02597404 2.726476e-05 -2.010193e-06 -1.849483e-08 1.520249e-09 -5.073132e-13line search fails -1.237693 0.02094386 1.385896e-05 -1.056983e-07 -1.081935e-08 2.439568e-10 -1.499708e-13line search fails -1.195498 0.0217591 4.043829e-05 -3.244373e-06 -2.843842e-08 2.331353e-09 -1.157565e-12line search fails -1.205064 0.02850234 3.790765e-05 -1.752824e-06 -2.747409e-08 1.625939e-09 -1.044328e-12line search fails -1.181815 0.02444162 3.921617e-05 -3.422878e-06 -2.712844e-08 2.475447e-09 -1.072347e-12line search fails -1.193063 0.02747847 5.034383e-05 -2.617253e-06 -2.844088e-08 1.82874e-09 -1.436609e-12Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 38 warnings (use warnings() to see them)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.221827 0.03101419 1.785951e-05 -3.315018e-07 -1.382021e-08 5.29074e-10 -2.469976e-13line search fails -1.190003 0.03631952 2.084808e-05 -1.282729e-06 -1.509342e-08 1.156127e-09 -3.161518e-13line search fails -1.219756 0.02673975 1.88469e-05 -4.738052e-07 -1.4497e-08 5.708658e-10 -2.73494e-13line search fails -1.195285 0.03358575 2.62673e-05 -1.569351e-06 -1.911698e-08 1.39224e-09 -5.043365e-13line search fails -1.157881 0.03300597 2.368453e-05 -2.401833e-06 -1.607615e-08 1.76534e-09 -3.849962e-13line search fails -1.228579 0.0358306 2.238202e-05 -5.116742e-07 -1.748428e-08 7.867122e-10 -3.917361e-13line search fails -1.156715 0.03788171 2.347553e-05 -2.929609e-06 -1.616689e-08 2.124146e-09 -3.857493e-13line search fails -1.197202 0.03466568 2.753966e-05 -1.699967e-06 -1.998003e-08 1.509129e-09 -5.528089e-13line search fails -1.256062 0.03271395 3.3849e-05 -6.237878e-07 -2.690311e-08 1.047084e-09 -9.112965e-13line search fails -1.173293 0.04459381 3.355114e-05 -4.184566e-06 -2.321082e-08 3.189358e-09 -7.920957e-13line search fails -1.14677 0.03858362 2.943354e-05 -4.37188e-06 -1.569768e-08 2.430759e-09 -4.726654e-13Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 32 warnings (use warnings() to see them)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.223346 0.03164239 1.859474e-05 -5.650771e-07 -1.436771e-08 6.751433e-10 -2.675454e-13line search fails -1.188073 0.03489858 2.075756e-05 -1.258986e-06 -1.496328e-08 1.126234e-09 -3.120191e-13line search fails -1.239155 0.0233448 2.983812e-05 2.311931e-07 -2.322088e-08 3.084405e-10 -6.92796e-13line search fails -1.166091 0.03097077 3.478519e-05 -2.882103e-06 -2.364267e-08 2.234685e-09 -8.288554e-13line search fails -1.195031 0.02307029 3.438887e-05 -8.28445e-07 -2.469602e-08 9.501656e-10 -8.500554e-13line search fails -1.169322 0.01624638 3.319103e-05 -2.494609e-06 -2.269656e-08 1.712443e-09 -7.575941e-13line search fails -1.210877 0.02066605 1.417747e-05 5.646878e-08 -1.093265e-08 1.582268e-10 -1.549884e-13line search fails -1.155085 0.01967097 1.214118e-05 -3.803262e-07 -8.489006e-09 3.505807e-10 -1.031999e-13line search fails -1.138248 0.01388548 1.36011e-05 -1.299323e-06 -9.134489e-09 8.055561e-10 -1.252858e-13line search fails -1.224691 0.02129377 1.725835e-05 3.533797e-07 -1.348826e-08 4.83937e-11 -2.327679e-13line search fails -1.221622 0.02451221 3.218567e-05 -1.035611e-06 -2.403724e-08 1.060548e-09 -7.74753e-13line search fails -1.174426 0.02762082 2.129561e-05 -2.055456e-06 -1.487316e-08 1.470189e-09 -3.197549e-13line search fails -0.8557794 0.004303962 2.968044e-05 -1.704516e-06 -3.465477e-08 8.521217e-10 -1.030021e-12line search fails -0.8332048 -0.009952132 1.840652e-05 -3.238455e-07 -2.147057e-08 -1.275239e-10 -3.951572e-13line search fails -0.8645354 0.0251589 3.784414e-05 -3.234646e-06 -4.316937e-08 2.546381e-09 -1.641944e-12line search fails -0.8274073 0.004846148 1.85048e-05 -1.004876e-06 -2.116442e-08 5.158297e-10 -3.921616e-13line search fails -0.834521 -0.009751793 1.125105e-05 7.687245e-07 -1.41111e-08 -4.688877e-10 -1.59125e-13line search fails -0.8415945 0.005436091 1.817606e-05 -1.109588e-06 -2.179491e-08 5.785436e-10 -3.967875e-13line search fails -0.8096995 0.0007553386 1.374141e-05 -3.419202e-07 -1.543627e-08 1.523837e-10 -2.121682e-13line search fails -0.8352021 -0.00508955 2.112634e-05 1.804918e-07 -2.403219e-08 -2.175291e-10 -5.077516e-13line search fails -0.8333732 0.01949071 2.135505e-05 -1.338357e-06 -2.388894e-08 1.082093e-09 -5.115978e-13line search fails -0.8652223 0.009337812 1.136458e-05 3.007555e-07 -1.507155e-08 4.464715e-11 -1.712683e-13line search fails -0.8485031 0.01237746 3.022858e-05 -1.585871e-06 -3.469977e-08 1.134741e-09 -1.050724e-12line search fails -0.8381549 0.008565467 2.126115e-05 -5.635641e-07 -2.456238e-08 4.738306e-10 -5.224915e-13line search fails -0.8702277 0.01836921 1.076198e-05 -4.365061e-07 -1.472822e-08 4.819057e-10 -1.587152e-13line search fails -0.8034526 -0.008335216 1.437777e-05 4.458799e-07 -1.626611e-08 -3.474441e-10 -2.340254e-13line search fails -0.8656384 0.006345629 4.382904e-05 7.115676e-08 -5.030292e-08 3.399963e-10 -2.204704e-12line search fails -0.8222449 0.01003774 2.507902e-05 -1.669695e-06 -2.787439e-08 1.000594e-09 -7.007329e-13line search fails -0.8418144 0.01343293 3.580481e-05 -1.561947e-06 -3.953224e-08 1.251366e-09 -1.417399e-12line search fails -0.832586 0.009233023 1.66715e-05 -1.519854e-06 -1.837067e-08 8.078647e-10 -3.074945e-13line search fails -0.8486813 0.006810111 2.687081e-05 -1.058687e-06 -3.080051e-08 6.738531e-10 -8.283478e-13line search fails -0.8357685 0.002279572 2.07736e-05 -1.280637e-06 -2.476007e-08 5.742562e-10 -5.150912e-13[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 1,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+There were 50 or more warnings (use warnings() to see the first 50)

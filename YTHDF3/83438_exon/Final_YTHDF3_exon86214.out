@@ -1,0 +1,3376 @@
+During startup - Warning message:
+Setting LC_CTYPE failed, using "C" 
+Loading required package: BSgenome
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:parallel':
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which, which.max, which.min
+
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: 'S4Vectors'
+
+The following object is masked from 'package:base':
+
+    expand.grid
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomicRanges
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: 'Biostrings'
+
+The following object is masked from 'package:base':
+
+    strsplit
+
+Loading required package: rtracklayer
+Loading required package: GenomicFeatures
+Loading required package: AnnotationDbi
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: gplots
+
+Attaching package: 'gplots'
+
+The following object is masked from 'package:rtracklayer':
+
+    space
+
+The following object is masked from 'package:IRanges':
+
+    space
+
+The following object is masked from 'package:S4Vectors':
+
+    space
+
+The following object is masked from 'package:stats':
+
+    lowess
+
+Type 'citation("pROC")' for a citation.
+
+Attaching package: 'pROC'
+
+The following objects are masked from 'package:IRanges':
+
+    cov, var
+
+The following objects are masked from 'package:S4Vectors':
+
+    cov, var
+
+The following object is masked from 'package:BiocGenerics':
+
+    var
+
+The following objects are masked from 'package:stats':
+
+    cov, smooth, var
+
+
+Attaching package: 'kernlab'
+
+The following object is masked from 'package:Biostrings':
+
+    type
+
+Loading required package: lattice
+Loading required package: ggplot2
+
+Attaching package: 'ggplot2'
+
+The following object is masked from 'package:kernlab':
+
+    alpha
+
+
+Attaching package: 'matrixStats'
+
+The following objects are masked from 'package:Biobase':
+
+    anyMissing, rowMedians
+
+
+Attaching package: 'dplyr'
+
+The following object is masked from 'package:matrixStats':
+
+    count
+
+The following object is masked from 'package:AnnotationDbi':
+
+    select
+
+The following object is masked from 'package:Biobase':
+
+    combine
+
+The following objects are masked from 'package:Biostrings':
+
+    collapse, intersect, setdiff, setequal, union
+
+The following object is masked from 'package:XVector':
+
+    slice
+
+The following objects are masked from 'package:GenomicRanges':
+
+    intersect, setdiff, union
+
+The following object is masked from 'package:GenomeInfoDb':
+
+    intersect
+
+The following objects are masked from 'package:IRanges':
+
+    collapse, desc, intersect, setdiff, slice, union
+
+The following objects are masked from 'package:S4Vectors':
+
+    first, intersect, rename, setdiff, setequal, union
+
+The following objects are masked from 'package:BiocGenerics':
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 1,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66, cumFreq_1
+line search fails -0.2048597 0.003330914 1.086491e-05 -4.096759e-07 -2.004899e-08 5.345734e-10 -2.180494e-13line search fails -0.2554889 0.007144031 1.088554e-05 -9.950405e-07 -2.936147e-08 1.429112e-09 -3.210374e-13line search fails -0.2260912 0.004728532 1.007772e-05 -7.22596e-07 -2.23132e-08 8.558274e-10 -2.254846e-13line search fails -0.25848 0.008387827 2.554101e-05 -1.1869e-06 -5.622105e-08 2.511695e-09 -1.438924e-12line search fails -0.2307252 0.008414394 1.3649e-05 -1.580916e-06 -2.950258e-08 1.953186e-09 -4.057684e-13line search fails -0.2131089 -0.006225985 1.519838e-05 1.030087e-06 -2.813937e-08 -1.417696e-09 -4.291333e-13line search fails -0.2594193 0.004257839 1.777326e-05 -8.659817e-07 -4.234886e-08 1.242953e-09 -7.537537e-13line search fails -0.2211696 -0.001342415 1.077608e-05 -2.317259e-07 -2.26433e-08 -3.541505e-12 -2.440051e-13line search fails -0.2507154 0.002125954 2.53907e-05 -2.740826e-07 -5.346881e-08 6.120382e-10 -1.357779e-12line search fails -0.2191021 0.0001513944 1.705888e-05 3.17634e-07 -3.166069e-08 -1.617965e-10 -5.401475e-13line search fails -0.2063374 -0.001212651 1.052957e-05 1.41322e-07 -2.047819e-08 -2.020027e-10 -2.156551e-13line search fails -0.2230065 0.005329678 1.085767e-05 1.19116e-07 -2.336489e-08 5.196003e-10 -2.536264e-13line search fails -0.2371439 0.002346173 1.464498e-05 2.132449e-08 -3.256327e-08 3.098033e-10 -4.768819e-13line search fails -0.255694 0.005270419 2.171669e-05 -1.857124e-06 -4.901793e-08 2.085434e-09 -1.06838e-12line search fails -0.2380292 -0.001346331 1.744108e-05 -3.056219e-07 -3.702122e-08 -3.256088e-11 -6.456802e-13line search fails -0.2112755 0.006326962 1.204869e-05 -9.133654e-07 -2.29651e-08 1.215601e-09 -2.778097e-13line search fails -1.217175 0.04544427 2.234758e-05 -4.006344e-06 -2.441356e-08 4.538836e-09 -5.637679e-13line search fails -1.178673 0.03243246 1.577166e-05 -3.798001e-06 -1.640999e-08 3.845804e-09 -2.734191e-13line search fails -1.206171 0.02111127 1.987229e-05 -2.54069e-06 -2.129737e-08 2.660402e-09 -4.299868e-13line search fails -1.17716 0.02226321 1.631263e-05 -2.707279e-06 -1.674603e-08 2.737825e-09 -2.805838e-13line search fails -1.234065 0.0345831 2.867291e-05 -3.670354e-06 -3.154654e-08 4.230607e-09 -9.200591e-13line search fails -1.164729 0.01425822 1.105062e-05 -2.029941e-06 -1.109967e-08 1.926242e-09 -1.265683e-13line search fails -1.21733 0.01415826 2.27976e-05 -3.462541e-06 -2.435518e-08 3.429896e-09 -5.671158e-13line search fails -1.183862 0.01444596 1.312072e-05 -2.442623e-06 -1.347314e-08 2.342708e-09 -1.824996e-13line search fails -1.243208 0.0398491 2.269776e-05 -4.405942e-06 -2.585507e-08 4.834096e-09 -6.081508e-13line search fails -1.199395 0.03713479 1.311539e-05 -3.600675e-06 -1.425029e-08 3.681091e-09 -2.001526e-13line search fails -1.160612 0.01977716 1.184251e-05 -3.040496e-06 -9.519881e-09 2.30245e-09 -1.197399e-13Error in `$<-.data.frame`(`*tmp*`, "pred_class", value = structure(list( : 
+  replacement has 10232 rows, data has 5116
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
+Error : $ operator is invalid for atomic vectors
+Error in performance(BIOmotifvsnon_testppred, "auc") : 
+  Wrong argument types: First argument must be of type 'prediction'; second and optional third argument must be available performance measures!
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.230274 0.04577227 3.037263e-05 -5.029797e-06 -3.345737e-08 5.85093e-09 -1.045617e-12line search fails -1.210468 0.04411327 2.195561e-05 -3.396949e-06 -2.376795e-08 3.940618e-09 -5.35226e-13line search fails -1.206884 0.04696509 2.303156e-05 -5.313513e-06 -2.47943e-08 5.789738e-09 -6.018153e-13line search fails -1.176714 0.02940149 1.296529e-05 -3.472794e-06 -1.350318e-08 3.42571e-09 -1.869694e-13line search fails -1.182801 0.03553704 2.633119e-05 -6.705196e-06 -2.16861e-08 5.512785e-09 -6.079851e-13Error in `$<-.data.frame`(`*tmp*`, "pred_class", value = structure(list( : 
+  replacement has 10232 rows, data has 5116
+In addition: There were 14 warnings (use warnings() to see them)
+Error : $ operator is invalid for atomic vectors
+Error in performance(BIOmotifvsnon_testppred, "auc") : 
+  Wrong argument types: First argument must be of type 'prediction'; second and optional third argument must be available performance measures!
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.209713 0.01676538 2.546835e-05 -3.010217e-06 -2.728049e-08 3.128049e-09 -7.042051e-13line search fails -1.18423 0.01219667 1.431062e-05 -2.538113e-06 -1.469489e-08 2.418869e-09 -2.164324e-13line search fails -1.205372 0.002178604 3.062104e-05 -2.062695e-06 -3.168525e-08 1.937035e-09 -9.742307e-13line search fails -1.228966 0.01602336 2.382199e-05 -1.753075e-06 -2.595916e-08 1.932409e-09 -6.217864e-13line search fails -1.208225 0.001249284 1.95946e-05 -1.855234e-06 -2.049865e-08 1.692057e-09 -4.048019e-13line search fails -1.175851 -0.001071862 1.041543e-05 -7.475446e-07 -1.048682e-08 6.492225e-10 -1.097101e-13line search fails -1.235318 0.02145061 3.55781e-05 -4.132649e-06 -3.899555e-08 4.478204e-09 -1.405894e-12line search fails -1.191101 0.02665917 1.733018e-05 -3.615814e-06 -1.77795e-08 3.643107e-09 -3.212948e-13line search fails -1.234911 0.03809969 1.570809e-05 -1.914103e-06 -1.721347e-08 2.268323e-09 -2.747326e-13line search fails -1.166985 0.0318846 1.203464e-05 -1.894898e-06 -1.193348e-08 1.986107e-09 -1.473786e-13line search fails -1.171305 0.02787807 1.030064e-05 -1.92332e-06 -1.041776e-08 1.938057e-09 -1.110371e-13line search fails -1.171818 0.01466306 1.070781e-05 -1.664442e-06 -1.078148e-08 1.602674e-09 -1.181136e-13line search fails -1.218459 0.03581806 2.388946e-05 -2.633052e-06 -2.580786e-08 3.130298e-09 -6.247781e-13line search fails -1.188186 0.03838119 1.739111e-05 -2.123403e-06 -1.790714e-08 2.476451e-09 -3.166836e-13line search fails -1.193081 0.0293127 2.421021e-05 -4.089735e-06 -1.988996e-08 3.427752e-09 -4.955586e-13Error in `$<-.data.frame`(`*tmp*`, "pred_class", value = structure(list( : 
+  replacement has 10232 rows, data has 5116
+In addition: There were 45 warnings (use warnings() to see them)
+Error : $ operator is invalid for atomic vectors
+Error in performance(BIOmotifvsnon_testppred, "auc") : 
+  Wrong argument types: First argument must be of type 'prediction'; second and optional third argument must be available performance measures!
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.213915 0.03107051 1.932226e-05 -2.425626e-06 -2.068592e-08 2.699707e-09 -4.062471e-13line search fails -1.192095 0.03008316 1.552927e-05 -2.27889e-06 -1.599942e-08 2.429618e-09 -2.539961e-13line search fails -1.215103 0.03824796 1.938194e-05 -3.193434e-06 -2.087734e-08 3.528435e-09 -4.159113e-13line search fails -1.177505 0.04054824 1.34245e-05 -3.141797e-06 -1.381092e-08 3.270935e-09 -1.956813e-13line search fails -1.208978 0.04084498 1.335575e-05 -2.009491e-06 -1.450822e-08 2.266617e-09 -1.98323e-13line search fails -1.229967 0.04821037 2.221391e-05 -3.805925e-06 -2.454387e-08 4.402283e-09 -5.619703e-13line search fails -1.172862 0.03134938 1.090358e-05 -2.708857e-06 -8.869824e-09 2.13801e-09 -1.025044e-13Error in `$<-.data.frame`(`*tmp*`, "pred_class", value = structure(list( : 
+  replacement has 10232 rows, data has 5116
+In addition: There were 20 warnings (use warnings() to see them)
+Error : $ operator is invalid for atomic vectors
+Error in performance(BIOmotifvsnon_testppred, "auc") : 
+  Wrong argument types: First argument must be of type 'prediction'; second and optional third argument must be available performance measures!
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.222306 0.04516747 1.883726e-05 -3.861708e-06 -2.081995e-08 4.258484e-09 -4.086359e-13line search fails -1.207242 0.02702508 1.293226e-05 -1.808152e-06 -1.398395e-08 1.919495e-09 -1.843149e-13line search fails -1.192009 0.02993577 1.636324e-05 -3.373538e-06 -1.726891e-08 3.461132e-09 -2.942516e-13line search fails -1.219748 0.04317188 1.613874e-05 -3.160447e-06 -1.783948e-08 3.469908e-09 -2.988732e-13line search fails -1.1696 0.02247688 1.02619e-05 -2.48682e-06 -8.342728e-09 1.904718e-09 -9.034891e-14Error in `$<-.data.frame`(`*tmp*`, "pred_class", value = structure(list( : 
+  replacement has 10232 rows, data has 5116
+In addition: There were 14 warnings (use warnings() to see them)
+Error : $ operator is invalid for atomic vectors
+Error in performance(BIOmotifvsnon_testppred, "auc") : 
+  Wrong argument types: First argument must be of type 'prediction'; second and optional third argument must be available performance measures!
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.228148 0.02223478 2.401913e-05 -2.916333e-06 -2.648538e-08 3.146084e-09 -6.453308e-13line search fails -1.18466 0.01395783 2.053494e-05 -3.922077e-06 -2.135858e-08 3.805941e-09 -4.535244e-13line search fails -1.199755 0.03097258 2.254182e-05 -4.820703e-06 -2.376695e-08 4.994658e-09 -5.598282e-13line search fails -1.221383 0.03168303 1.819446e-05 -2.8291e-06 -2.00589e-08 3.0687e-09 -3.736426e-13line search fails -1.160515 0.02796014 1.455593e-05 -4.024858e-06 -1.183037e-08 3.137816e-09 -1.848314e-13Error in `$<-.data.frame`(`*tmp*`, "pred_class", value = structure(list( : 
+  replacement has 10232 rows, data has 5116
+In addition: There were 14 warnings (use warnings() to see them)
+Error : $ operator is invalid for atomic vectors
+Error in performance(BIOmotifvsnon_testppred, "auc") : 
+  Wrong argument types: First argument must be of type 'prediction'; second and optional third argument must be available performance measures!
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.180439 0.0292953 2.070412e-05 -6.030694e-06 -2.095144e-08 5.981082e-09 -4.698512e-13line search fails -1.206435 0.03314237 2.413268e-05 -5.226901e-06 -2.514953e-08 5.458368e-09 -6.354558e-13line search fails -1.22806 0.04825623 4.179314e-05 -9.750951e-06 -3.598896e-08 8.615995e-09 -1.588106e-12Error in `$<-.data.frame`(`*tmp*`, "pred_class", value = structure(list( : 
+  replacement has 10232 rows, data has 5116
+In addition: Warning messages:
+1: In method$predict(modelFit = modelFit, newdata = newdata, submodels = param) :
+  kernlab class prediction calculations failed; returning NAs
+2: In method$prob(modelFit = modelFit, newdata = newdata, submodels = param) :
+  kernlab class probability calculations failed; returning NAs
+3: In data.frame(..., check.names = FALSE) :
+  row names were found from a short variable and have been discarded
+4: In method$predict(modelFit = modelFit, newdata = newdata, submodels = param) :
+  kernlab class prediction calculations failed; returning NAs
+5: In method$prob(modelFit = modelFit, newdata = newdata, submodels = param) :
+  kernlab class probability calculations failed; returning NAs
+6: In data.frame(..., check.names = FALSE) :
+  row names were found from a short variable and have been discarded
+7: In nominalTrainWorkflow(x = x, y = y, wts = weights, info = trainInfo,  :
+  There were missing values in resampled performance measures.
+8: In method$prob(modelFit = modelFit, newdata = newdata, submodels = param) :
+  kernlab class probability calculations failed; returning NAs
+Error : $ operator is invalid for atomic vectors
+Error in performance(BIOmotifvsnon_testppred, "auc") : 
+  Wrong argument types: First argument must be of type 'prediction'; second and optional third argument must be available performance measures!
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.207456 0.01032739 1.601678e-05 -2.255852e-06 -1.706184e-08 2.165711e-09 -2.781612e-13line search fails -1.18084 0.01887675 1.425399e-05 -2.80927e-06 -1.465086e-08 2.741735e-09 -2.165355e-13line search fails -1.179244 0.02438346 1.105907e-05 -2.407544e-06 -1.145947e-08 2.369838e-09 -1.324366e-13line search fails -1.215121 0.03170016 1.440509e-05 -2.205528e-06 -1.560241e-08 2.37691e-09 -2.299964e-13line search fails -1.189113 0.01789628 1.150195e-05 -2.520424e-06 -1.202126e-08 2.414169e-09 -1.443527e-13line search fails -1.22227 0.01389733 3.149161e-05 -2.517412e-06 -3.28532e-08 2.692185e-09 -1.041377e-12line search fails -1.193223 0.00188425 1.429966e-05 -2.295623e-06 -1.441897e-08 2.075858e-09 -2.109516e-13line search fails -1.216016 0.02210022 2.315226e-05 -3.215645e-06 -2.462547e-08 3.353954e-09 -5.809204e-13line search fails -1.204826 0.02269807 2.204139e-05 -3.663463e-06 -2.289956e-08 3.748065e-09 -5.184691e-13line search fails -1.220769 0.006253109 2.281714e-05 -1.067294e-06 -2.440117e-08 1.095525e-09 -5.579342e-13line search fails -1.182477 0.01229793 1.242864e-05 -7.282759e-07 -1.260948e-08 7.818032e-10 -1.572881e-13line search fails -1.203489 0.02740887 1.504247e-05 -2.098466e-06 -1.606102e-08 2.244566e-09 -2.463077e-13line search fails -1.178808 0.02299298 1.385531e-05 -2.427108e-06 -1.41034e-08 2.438598e-09 -2.013257e-13line search fails -1.201016 0.00983117 1.44302e-05 -1.313839e-06 -1.538316e-08 1.296189e-09 -2.23685e-13line search fails -1.185746 0.01663076 1.211256e-05 -1.849746e-06 -1.26071e-08 1.819576e-09 -1.560701e-13[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(1, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+[1] 1
+[1] 2
+[1] 3
+[1] 4
+[1] 5
+[1] 6
+[1] 7
+[1] 8
+[1] 9
+[1] 10
+[1] 11
+[1] 12
+[1] 13
+[1] 14
+[1] 15
+[1] 16
+[1] 17
+[1] 18
+[1] 19
+[1] 20
+[1] 21
+[1] 22
+[1] 23
+[1] 24
+[1] 25
+[1] 26
+[1] 27
+[1] 28
+[1] 29
+[1] 30
+[1] 31
+[1] 32
+[1] 33
+[1] 34
+[1] 35
+[1] 36
+[1] 37
+[1] 38
+[1] 39
+[1] 40
+[1] 41
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V74, V78, V80, V81, V82, V83, V84, V85, V86, V87, V88, V91
+There were 50 or more warnings (use warnings() to see the first 50)
+Loading required package: SummarizedExperiment
+Loading required package: DelayedArray
+Loading required package: BiocParallel
+
+Attaching package: 'DelayedArray'
+
+The following objects are masked from 'package:matrixStats':
+
+    colMaxs, colMins, colRanges, rowMaxs, rowMins, rowRanges
+
+The following object is masked from 'package:kernlab':
+
+    type
+
+The following object is masked from 'package:Biostrings':
+
+    type
+
+The following objects are masked from 'package:base':
+
+    aperm, apply, rowsum
+
+Loading required package: GenomicScores
+
+Attaching package: 'GenomicScores'
+
+The following object is masked from 'package:DelayedArray':
+
+    type
+
+The following object is masked from 'package:kernlab':
+
+    type
+
+The following object is masked from 'package:Biostrings':
+
+    type
+
+The following object is masked from 'package:utils':
+
+    citation
+
+GRanges object with 6916 ranges and 0 metadata columns:
+         seqnames              ranges strand
+            <Rle>           <IRanges>  <Rle>
+     [1]     chr1   40704830-40704834      +
+     [2]     chr6 155143433-155143437      +
+     [3]    chr12   96793939-96793943      -
+     [4]    chr11 107677319-107677323      -
+     [5]     chr8   17424053-17424057      +
+     ...      ...                 ...    ...
+  [6912]    chr15   31667650-31667654      +
+  [6913]     chr3   14170936-14170940      +
+  [6914]     chr9   34252165-34252169      +
+  [6915]     chr8   25203064-25203068      +
+  [6916]    chr10   73770863-73770867      +
+  -------
+  seqinfo: 93 sequences from an unspecified genome; no seqlengths
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+no fitCons scores for population default in sequence chrX from GScores object x (fitCons.UCSC.hg19).
+no fitCons scores for population default in sequence chrY from GScores object x (fitCons.UCSC.hg19).
+no fitCons scores for population default in sequence chrM from GScores object x (fitCons.UCSC.hg19).
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Error in `$<-.data.frame`(`*tmp*`, "pred_class2", value = structure(list( : 
+  replacement has 2858 rows, data has 5116
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(testing$pred_class2$Pos, testing$class) : 
+  Format of predictions is invalid.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Error in `$<-.data.frame`(`*tmp*`, "pred_class2", value = structure(list( : 
+  replacement has 2858 rows, data has 5116
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(testing$pred_class2$Pos, testing$class) : 
+  Format of predictions is invalid.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Error in `$<-.data.frame`(`*tmp*`, "pred_class2", value = structure(list( : 
+  replacement has 2858 rows, data has 5116
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(testing$pred_class2$Pos, testing$class) : 
+  Format of predictions is invalid.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Error in `$<-.data.frame`(`*tmp*`, "pred_class2", value = structure(list( : 
+  replacement has 2858 rows, data has 5116
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(testing$pred_class2$Pos, testing$class) : 
+  Format of predictions is invalid.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Error in `$<-.data.frame`(`*tmp*`, "pred_class2", value = structure(list( : 
+  replacement has 2858 rows, data has 5116
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(testing$pred_class2$Pos, testing$class) : 
+  Format of predictions is invalid.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Error in `$<-.data.frame`(`*tmp*`, "pred_class2", value = structure(list( : 
+  replacement has 2858 rows, data has 5116
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(testing$pred_class2$Pos, testing$class) : 
+  Format of predictions is invalid.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Error in `$<-.data.frame`(`*tmp*`, "pred_class2", value = structure(list( : 
+  replacement has 2858 rows, data has 5116
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(testing$pred_class2$Pos, testing$class) : 
+  Format of predictions is invalid.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Error in `$<-.data.frame`(`*tmp*`, "pred_class2", value = structure(list( : 
+  replacement has 2858 rows, data has 5116
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(testing$pred_class2$Pos, testing$class) : 
+  Format of predictions is invalid.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Error in `$<-.data.frame`(`*tmp*`, "pred_class2", value = structure(list( : 
+  replacement has 2858 rows, data has 5116
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(testing$pred_class2$Pos, testing$class) : 
+  Format of predictions is invalid.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65
+Error in `$<-.data.frame`(`*tmp*`, "pred_class2", value = structure(list( : 
+  replacement has 2858 rows, data has 5116
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(testing$pred_class2$Pos, testing$class) : 
+  Format of predictions is invalid.

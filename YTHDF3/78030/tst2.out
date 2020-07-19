@@ -1,0 +1,225 @@
+During startup - Warning message:
+Setting LC_CTYPE failed, using "C" 
+Loading required package: BSgenome
+Loading required package: methods
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:parallel':
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, append, as.data.frame, cbind, colMeans, colnames,
+    colSums, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, lengths, Map, mapply, match,
+    mget, order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rowMeans, rownames, rowSums, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which, which.max, which.min
+
+Loading required package: S4Vectors
+Loading required package: stats4
+
+Attaching package: 'S4Vectors'
+
+The following object is masked from 'package:base':
+
+    expand.grid
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomicRanges
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: 'Biostrings'
+
+The following object is masked from 'package:base':
+
+    strsplit
+
+Loading required package: rtracklayer
+Loading required package: GenomicFeatures
+Loading required package: AnnotationDbi
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: gplots
+
+Attaching package: 'gplots'
+
+The following object is masked from 'package:rtracklayer':
+
+    space
+
+The following object is masked from 'package:IRanges':
+
+    space
+
+The following object is masked from 'package:S4Vectors':
+
+    space
+
+The following object is masked from 'package:stats':
+
+    lowess
+
+Type 'citation("pROC")' for a citation.
+
+Attaching package: 'pROC'
+
+The following objects are masked from 'package:IRanges':
+
+    cov, var
+
+The following objects are masked from 'package:S4Vectors':
+
+    cov, var
+
+The following object is masked from 'package:BiocGenerics':
+
+    var
+
+The following objects are masked from 'package:stats':
+
+    cov, smooth, var
+
+
+Attaching package: 'kernlab'
+
+The following object is masked from 'package:Biostrings':
+
+    type
+
+GRanges object with 6916 ranges and 0 metadata columns:
+         seqnames                 ranges strand
+            <Rle>              <IRanges>  <Rle>
+     [1]     chr1 [ 40704830,  40704834]      +
+     [2]     chr6 [155143433, 155143437]      +
+     [3]    chr12 [ 96793939,  96793943]      -
+     [4]    chr11 [107677319, 107677323]      -
+     [5]     chr8 [ 17424053,  17424057]      +
+     ...      ...                    ...    ...
+  [6912]    chr15   [31667650, 31667654]      +
+  [6913]     chr3   [14170936, 14170940]      +
+  [6914]     chr9   [34252165, 34252169]      +
+  [6915]     chr8   [25203064, 25203068]      +
+  [6916]    chr10   [73770863, 73770867]      +
+  -------
+  seqinfo: 93 sequences from an unspecified genome; no seqlengths
+Loading required package: lattice
+Loading required package: ggplot2
+
+Attaching package: 'ggplot2'
+
+The following object is masked from 'package:kernlab':
+
+    alpha
+
+
+Attaching package: 'matrixStats'
+
+The following objects are masked from 'package:Biobase':
+
+    anyMissing, rowMedians
+
+
+Attaching package: 'dplyr'
+
+The following object is masked from 'package:matrixStats':
+
+    count
+
+The following object is masked from 'package:AnnotationDbi':
+
+    select
+
+The following object is masked from 'package:Biobase':
+
+    combine
+
+The following objects are masked from 'package:Biostrings':
+
+    collapse, intersect, setdiff, setequal, union
+
+The following object is masked from 'package:XVector':
+
+    slice
+
+The following objects are masked from 'package:GenomicRanges':
+
+    intersect, setdiff, union
+
+The following object is masked from 'package:GenomeInfoDb':
+
+    intersect
+
+The following objects are masked from 'package:IRanges':
+
+    collapse, desc, intersect, setdiff, slice, union
+
+The following objects are masked from 'package:S4Vectors':
+
+    first, intersect, rename, setdiff, setequal, union
+
+The following objects are masked from 'package:BiocGenerics':
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+line search fails -1.21583 0.01065632 1.396952e-05 8.411253e-07 -1.085707e-08 -3.784029e-10 -1.519863e-13line search fails -1.168442 0.01436184 1.41441e-05 5.748624e-07 -1.004592e-08 -1.987143e-10 -1.422047e-13line search fails -1.140905 0.02612816 1.318208e-05 -6.115263e-08 -9.021769e-09 2.415399e-10 -1.189405e-13line search fails -1.235318 0.004506174 2.352647e-05 1.620955e-06 -1.836629e-08 -8.686107e-10 -4.335019e-13line search fails -1.195954 0.01928454 1.18921e-05 4.709766e-07 -8.617351e-09 -1.323134e-10 -1.025407e-13line search fails -1.149817 0.03279588 1.738524e-05 -3.394636e-07 -1.186549e-08 5.313238e-10 -2.064648e-13line search fails -1.207442 0.01676867 1.298055e-05 5.788599e-07 -9.928001e-09 -1.881592e-10 -1.289799e-13line search fails -1.13478 0.03179026 1.34683e-05 -6.875136e-07 -9.149159e-09 6.412861e-10 -1.236645e-13line search fails -1.234392 0.004132658 1.972315e-05 1.611349e-06 -1.541651e-08 -8.661656e-10 -3.054578e-13line search fails -1.178364 0.01318295 1.822853e-05 1.104252e-06 -1.299999e-08 -4.81432e-10 -2.375025e-13line search fails -1.15375 0.02321029 1.633851e-05 2.317431e-07 -1.124404e-08 9.88779e-11 -1.836879e-13line search fails -1.224142 0.01308265 1.866563e-05 9.269045e-07 -1.448162e-08 -3.714297e-10 -2.706528e-13line search fails -1.159328 0.03852578 1.848338e-05 -6.069611e-07 -1.274388e-08 7.703731e-10 -2.360177e-13line search fails -1.172056 0.02255824 2.600045e-05 4.544249e-07 -1.455308e-08 7.206572e-11 -3.783539e-13Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 41 warnings (use warnings() to see them)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.181154 0.0266364 1.621594e-05 2.615994e-07 -1.158109e-08 1.14091e-10 -1.877685e-13line search fails -1.249609 0.02357964 2.076826e-05 1.088986e-06 -1.647422e-08 -3.152585e-10 -3.424844e-13line search fails -1.204614 0.0354057 2.257936e-05 7.182473e-07 -1.647937e-08 6.934101e-11 -3.72044e-13line search fails -1.174094 0.0450402 2.249924e-05 -7.110576e-07 -1.56024e-08 1.004961e-09 -3.517567e-13line search fails -1.243988 0.0312191 2.319899e-05 9.587759e-07 -1.824725e-08 -1.11032e-10 -4.234242e-13line search fails -1.17789 0.03625209 2.718196e-05 -7.323211e-07 -1.882645e-08 9.900647e-10 -5.124648e-13line search fails -1.271293 0.01648204 3.36311e-05 1.943669e-06 -2.715348e-08 -7.856302e-10 -9.147285e-13line search fails -1.2016 0.03222536 3.538511e-05 1.964674e-08 -2.520166e-08 6.591106e-10 -8.917505e-13line search fails -1.255995 0.01854135 2.363865e-05 1.287136e-06 -1.886757e-08 -4.618186e-10 -4.465984e-13line search fails -1.174017 0.03263084 1.16821e-05 -2.922933e-07 -8.11056e-09 3.922105e-10 -9.4863e-14line search fails -1.210023 0.03753494 3.896163e-05 5.031072e-07 -2.245809e-08 4.569602e-10 -8.747741e-13Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 32 warnings (use warnings() to see them)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.217083 0.02031746 1.147669e-05 5.584851e-07 -8.911487e-09 -1.639343e-10 -1.023659e-13line search fails -1.189977 0.02175324 1.431838e-05 3.912006e-07 -1.042759e-08 -3.032758e-11 -1.493181e-13line search fails -1.245165 0.01994741 2.490452e-05 8.571149e-07 -1.955511e-08 -1.872927e-10 -4.871711e-13line search fails -1.247278 0.01203441 2.393673e-05 1.576068e-06 -1.8788e-08 -7.20744e-10 -4.508593e-13line search fails -1.203242 0.01924284 2.376848e-05 1.034128e-06 -1.719395e-08 -3.152836e-10 -4.09e-13line search fails -1.182433 0.02539946 2.944257e-05 5.246003e-07 -2.046053e-08 1.475381e-10 -6.023333e-13line search fails -1.252618 0.01576282 2.531692e-05 1.100966e-06 -2.009057e-08 -3.802054e-10 -5.0905e-13line search fails -1.200978 0.02398213 1.779743e-05 5.026969e-07 -1.295253e-08 -2.687004e-11 -2.305353e-13line search fails -1.164728 0.02553049 1.998203e-05 -4.572569e-07 -1.3802e-08 5.609467e-10 -2.760486e-13line search fails -1.219465 0.0280306 1.596849e-05 4.658808e-07 -1.23175e-08 1.694812e-11 -1.966839e-13line search fails -1.191265 0.03321052 2.009509e-05 1.209024e-09 -1.453183e-08 4.002254e-10 -2.92018e-13line search fails -1.224149 -0.001432924 1.888056e-05 1.647002e-06 -1.464452e-08 -9.496358e-10 -2.780608e-13line search fails -1.195996 0.006916485 2.712238e-05 1.675945e-06 -1.956236e-08 -8.492077e-10 -5.32001e-13line search fails -1.205481 -0.007882994 1.228907e-05 1.059193e-06 -9.44901e-09 -6.528799e-10 -1.168111e-13line search fails -1.151218 0.007821425 1.06165e-05 6.328407e-07 -7.488216e-09 -3.021559e-10 -7.968985e-14line search fails -1.184561 0.01875826 1.264181e-05 3.33881e-07 -9.281317e-09 -4.176865e-11 -1.173466e-13line search fails -1.226307 0.002643235 1.813914e-05 1.2283e-06 -1.42051e-08 -6.695015e-10 -2.584906e-13line search fails -1.216178 0.007746043 1.772033e-05 1.088506e-06 -1.35786e-08 -5.310988e-10 -2.411954e-13line search fails -1.181385 0.02006462 1.620973e-05 6.496097e-07 -1.160321e-08 -1.735604e-10 -1.881976e-13line search fails -1.143396 0.02858607 1.558253e-05 1.287658e-07 -1.051033e-08 1.889523e-10 -1.637532e-13line search fails -1.133006 0.02671732 1.875949e-05 -1.449352e-07 -9.968063e-09 3.00902e-10 -1.870394e-13Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.217494 0.01757287 1.165706e-05 7.66702e-07 -9.087408e-09 -3.011682e-10 -1.061634e-13line search fails -1.178208 0.02778912 1.144647e-05 3.228586e-07 -8.308241e-09 1.174011e-11 -9.509623e-14line search fails -1.148712 0.02928208 1.069587e-05 -1.870275e-07 -7.389254e-09 2.922837e-10 -7.908915e-14line search fails -1.237135 0.01362484 1.527791e-05 1.095217e-06 -1.208153e-08 -4.855195e-10 -1.851123e-13line search fails -1.204549 0.01667444 2.005516e-05 7.526939e-07 -1.478582e-08 -2.241909e-10 -2.967006e-13line search fails -1.158472 0.02754649 1.576548e-05 -3.757275e-07 -1.088316e-08 4.741216e-10 -1.717563e-13line search fails -1.230067 0.009038294 1.308792e-05 1.076029e-06 -1.030941e-08 -5.298056e-10 -1.354989e-13line search fails -1.18799 0.02449887 1.307661e-05 4.533001e-07 -9.545073e-09 -5.854443e-11 -1.248438e-13line search fails -1.160987 0.02750239 1.398474e-05 -3.789995e-07 -9.740519e-09 4.39578e-10 -1.363853e-13line search fails -1.232541 0.01750928 1.243212e-05 7.392553e-07 -9.815586e-09 -2.776796e-10 -1.222338e-13line search fails -1.159186 0.03402022 1.322729e-05 -3.341147e-07 -9.171913e-09 4.539987e-10 -1.214712e-13line search fails -1.224262 0.01973405 1.24829e-05 8.213788e-07 -9.804624e-09 -3.035197e-10 -1.226395e-13line search fails -1.193901 0.03221429 2.64101e-05 6.533664e-07 -1.531441e-08 1.145635e-10 -4.043803e-13Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 38 warnings (use warnings() to see them)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.218445 0.02163844 1.239815e-05 6.528406e-07 -9.630251e-09 -1.920148e-10 -1.195227e-13line search fails -1.15016 0.0449479 1.142142e-05 -5.247375e-07 -7.849837e-09 6.016195e-10 -8.997195e-14line search fails -1.210985 0.01355347 1.064164e-05 4.992715e-07 -8.257914e-09 -1.832581e-10 -8.796922e-14line search fails -1.214257 0.02570912 1.228091e-05 5.346195e-07 -9.505723e-09 -9.715983e-11 -1.167909e-13line search fails -1.170683 0.03236409 1.340455e-05 2.871101e-10 -9.555709e-09 2.648979e-10 -1.280899e-13line search fails -1.150579 0.0417581 1.468778e-05 -9.374199e-07 -1.007745e-08 8.950474e-10 -1.488543e-13line search fails -1.21537 0.01553447 1.223817e-05 8.32668e-07 -9.465632e-09 -3.461567e-10 -1.161303e-13line search fails -1.182407 0.03340624 1.491108e-05 3.112381e-07 -1.075418e-08 1.252058e-10 -1.603175e-13line search fails -1.151555 0.03938821 1.396367e-05 -6.569891e-07 -9.535096e-09 6.961237e-10 -1.336023e-13line search fails -1.173503 0.028534 1.093409e-05 1.38404e-07 -7.870184e-09 1.141815e-10 -8.603753e-14line search fails -1.146161 0.04377319 1.448617e-05 -1.092808e-06 -7.86202e-09 7.913103e-10 -1.147553e-13Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 32 warnings (use warnings() to see them)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.219598 0.01389852 1.646841e-05 1.134401e-06 -1.268925e-08 -4.96294e-10 -2.095347e-13line search fails -1.149865 0.02642102 1.50833e-05 -3.618872e-07 -1.029611e-08 4.377932e-10 -1.554578e-13line search fails -1.247707 0.009786206 2.506389e-05 2.085638e-06 -1.968895e-08 -1.040969e-09 -4.956527e-13line search fails -1.194474 0.02611379 2.473426e-05 1.299133e-06 -1.768718e-08 -3.555302e-10 -4.379411e-13line search fails -1.162479 0.03579961 2.100478e-05 -9.059948e-08 -1.424712e-08 4.923465e-10 -2.993022e-13line search fails -1.240771 0.01636019 1.407325e-05 9.232376e-07 -1.110086e-08 -3.767532e-10 -1.565731e-13line search fails -1.192599 0.01942282 2.069391e-05 4.654631e-07 -1.492409e-08 -2.219531e-11 -3.088481e-13line search fails -1.157983 0.02336369 1.901752e-05 -1.669287e-07 -1.296623e-08 3.552253e-10 -2.466449e-13line search fails -1.233737 0.009489642 1.915203e-05 1.173036e-06 -1.486302e-08 -5.500133e-10 -2.853022e-13line search fails -1.185745 0.01698916 1.660158e-05 5.126905e-07 -1.198732e-08 -1.166685e-10 -1.990682e-13line search fails -1.152068 0.03280882 1.313356e-05 -1.274563e-07 -8.962989e-09 3.276279e-10 -1.177577e-13line search fails -1.243942 0.02267544 2.013137e-05 9.084242e-07 -1.57989e-08 -2.29309e-10 -3.18262e-13line search fails -1.171187 0.03593077 1.946026e-05 -6.854281e-07 -1.344689e-08 8.018092e-10 -2.622295e-13line search fails -1.192877 0.02241879 3.130423e-05 6.684636e-07 -1.776986e-08 2.578935e-11 -5.562546e-13Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 41 warnings (use warnings() to see them)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.198192 0.03440561 2.242075e-05 2.4515e-07 -1.625899e-08 3.216114e-10 -3.6446e-13line search fails -1.177766 0.03050235 2.107359e-05 -6.263978e-07 -1.478416e-08 7.355549e-10 -3.120161e-13line search fails -1.228875 0.01987288 1.501959e-05 9.31934e-07 -1.17385e-08 -3.414286e-10 -1.766256e-13line search fails -1.150115 0.04107476 1.315753e-05 -2.782312e-07 -9.006133e-09 4.758209e-10 -1.186309e-13line search fails -1.24966 0.02451847 1.802362e-05 5.409233e-07 -1.429238e-08 -3.103397e-11 -2.576172e-13line search fails -1.203638 0.03242758 1.912995e-05 1.206204e-08 -1.405734e-08 3.646529e-10 -2.689119e-13line search fails -1.175492 0.03730039 2.354925e-05 -1.19711e-06 -1.642275e-08 1.199774e-09 -3.881797e-13line search fails -1.249798 0.006634292 2.146219e-05 1.273301e-06 -1.696423e-08 -6.421159e-10 -3.64907e-13line search fails -1.198511 0.01934136 2.322926e-05 7.345562e-07 -1.67945e-08 -1.530747e-10 -3.902363e-13line search fails -1.228909 0.02363974 1.259712e-05 5.331022e-07 -9.952201e-09 -1.070722e-10 -1.254261e-13line search fails -1.179327 0.02579055 1.217819e-05 3.685561e-08 -8.820745e-09 1.706279e-10 -1.074144e-13line search fails -1.149026 0.03458971 1.099397e-05 -5.851944e-07 -7.629902e-09 5.552011e-10 -8.420778e-14line search fails -1.184101 0.02742854 2.396844e-05 3.151292e-07 -1.358949e-08 1.692423e-10 -3.256655e-13Error in .performance.auc(fpr.stop = 1, predictions = numeric(0), labels = structure(integer(0), .Label = c("Neg",  : 
+  Not enough distinct predictions to compute area under the ROC curve.
+In addition: There were 38 warnings (use warnings() to see them)
+Error in aucMatrix[i, ] <- attr(BIOmotifvsnon_testpppred_auc, "y.values")[[1]][1] : 
+  number of items to replace is not a multiple of replacement length
+line search fails -1.167295 0.02709158 2.233089e-05 5.365551e-08 -1.552247e-08 3.308595e-10 -3.466128e-13line search fails -1.247225 0.01433371 3.847923e-05 1.857395e-06 -2.975986e-08 -7.619148e-10 -1.146552e-12line search fails -1.186988 0.03247248 4.259656e-05 -8.595594e-07 -2.945121e-08 1.294212e-09 -1.255633e-12line search fails -1.23012 0.005467494 1.142955e-05 7.679161e-07 -8.866297e-09 -4.049617e-10 -1.016488e-13line search fails -1.173527 0.02338032 2.803542e-05 5.309722e-07 -1.95152e-08 7.476341e-11 -5.470771e-13line search fails -1.204726 0.02704247 2.444027e-05 4.9138e-07 -1.784673e-08 1.186673e-10 -4.361206e-13line search fails -1.208824 0.009589464 3.25646e-05 2.334657e-06 -2.383402e-08 -1.162989e-09 -7.788604e-13line search fails -1.17562 0.01621081 3.356186e-05 1.346611e-06 -2.31231e-08 -4.570423e-10 -7.766697e-13line search fails -1.217315 0.001640334 1.403194e-05 9.756104e-07 -1.093156e-08 -5.334424e-10 -1.539115e-13line search fails -1.190134 0.0148903 1.835791e-05 8.672407e-07 -1.339292e-08 -3.235026e-10 -2.461465e-13line search fails -1.153311 0.03069662 1.584041e-05 7.116329e-08 -1.091744e-08 2.507793e-10 -1.729189e-13line search fails -1.194313 0.01696843 1.826499e-05 7.486773e-07 -1.334189e-08 -2.323305e-10 -2.438635e-13line search fails -1.157321 0.01254998 1.385959e-05 1.094691e-07 -9.642179e-09 4.62656e-11 -1.336316e-13line search fails -1.217102 0.0003819978 1.359729e-05 1.038754e-06 -1.055745e-08 -5.787176e-10 -1.441538e-13line search fails -1.222473 0.006429958 1.497151e-05 1.182737e-06 -1.170182e-08 -6.05437e-10 -1.759099e-13line search fails -1.190533 0.01154273 1.70465e-05 8.741298e-07 -1.249525e-08 -3.742846e-10 -2.133275e-13line search fails -1.152191 0.03004093 1.309142e-05 9.624021e-08 -9.028916e-09 1.815065e-10 -1.181839e-13line search fails -1.195212 0.01792221 2.020946e-05 1.247455e-06 -1.472958e-08 -4.914417e-10 -2.982899e-13line search fails -1.164934 0.02198101 1.735084e-05 4.296347e-07 -1.201096e-08 -2.044104e-11 -2.08409e-13There were 50 or more warnings (use warnings() to see the first 50)

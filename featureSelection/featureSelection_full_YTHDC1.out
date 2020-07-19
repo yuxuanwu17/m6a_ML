@@ -1,0 +1,256 @@
+During startup - Warning message:
+Setting LC_CTYPE failed, using "C" 
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:parallel':
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which, which.max, which.min
+
+
+Attaching package: 'S4Vectors'
+
+The following object is masked from 'package:base':
+
+    expand.grid
+
+Loading required package: SummarizedExperiment
+Loading required package: GenomicRanges
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: DelayedArray
+Loading required package: matrixStats
+
+Attaching package: 'matrixStats'
+
+The following objects are masked from 'package:Biobase':
+
+    anyMissing, rowMedians
+
+Loading required package: BiocParallel
+
+Attaching package: 'DelayedArray'
+
+The following objects are masked from 'package:matrixStats':
+
+    colMaxs, colMins, colRanges, rowMaxs, rowMins, rowRanges
+
+The following objects are masked from 'package:base':
+
+    aperm, apply, rowsum
+
+Loading required package: GenomicFeatures
+Loading required package: AnnotationDbi
+Loading required package: BSgenome
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: 'Biostrings'
+
+The following object is masked from 'package:DelayedArray':
+
+    type
+
+The following object is masked from 'package:base':
+
+    strsplit
+
+Loading required package: rtracklayer
+Loading required package: GenomicScores
+
+Attaching package: 'GenomicScores'
+
+The following object is masked from 'package:Biostrings':
+
+    type
+
+The following object is masked from 'package:DelayedArray':
+
+    type
+
+The following object is masked from 'package:utils':
+
+    citation
+
+Loading required package: lattice
+Loading required package: ggplot2
+Loading required package: gplots
+
+Attaching package: 'gplots'
+
+The following object is masked from 'package:rtracklayer':
+
+    space
+
+The following object is masked from 'package:IRanges':
+
+    space
+
+The following object is masked from 'package:S4Vectors':
+
+    space
+
+The following object is masked from 'package:stats':
+
+    lowess
+
+Type 'citation("pROC")' for a citation.
+
+Attaching package: 'pROC'
+
+The following objects are masked from 'package:IRanges':
+
+    cov, var
+
+The following objects are masked from 'package:S4Vectors':
+
+    cov, var
+
+The following object is masked from 'package:BiocGenerics':
+
+    var
+
+The following objects are masked from 'package:stats':
+
+    cov, smooth, var
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:Biostrings':
+
+    collapse, intersect, setdiff, setequal, union
+
+The following object is masked from 'package:XVector':
+
+    slice
+
+The following object is masked from 'package:AnnotationDbi':
+
+    select
+
+The following object is masked from 'package:matrixStats':
+
+    count
+
+The following object is masked from 'package:Biobase':
+
+    combine
+
+The following objects are masked from 'package:GenomicRanges':
+
+    intersect, setdiff, union
+
+The following object is masked from 'package:GenomeInfoDb':
+
+    intersect
+
+The following objects are masked from 'package:IRanges':
+
+    collapse, desc, intersect, setdiff, slice, union
+
+The following objects are masked from 'package:S4Vectors':
+
+    first, intersect, rename, setdiff, setequal, union
+
+The following objects are masked from 'package:BiocGenerics':
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+no fitCons scores for population default in sequence chrX from GScores object x (fitCons.UCSC.hg19).
+no fitCons scores for population default in sequence chrM from GScores object x (fitCons.UCSC.hg19).
+no fitCons scores for population default in sequence chrY from GScores object x (fitCons.UCSC.hg19).
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+Warning: Ignoring unknown parameters: binwidth, bins, pad
+line search fails -2.163401 0.5574073 5.414735e-05 -5.414735e-05 -4.059854e-08 4.059853e-08 -4.396606e-12line search fails -2.971088 0.5150265 1.126171e-05 -1.069661e-05 -1.668938e-08 1.580566e-08 -3.57018e-13line search fails -2.982117 0.5283264 1.077629e-05 -1.03247e-05 -1.619198e-08 1.528755e-08 -3.323289e-13line search fails -2.983915 0.5267036 1.209441e-05 -1.154341e-05 -1.826367e-08 1.717551e-08 -4.191523e-13line search fails -2.979468 0.5520333 1.106322e-05 -1.060534e-05 -1.688587e-08 1.587651e-08 -3.551878e-13line search fails -2.996444 0.5399686 1.218833e-05 -1.168709e-05 -1.870621e-08 1.755141e-08 -4.331225e-13line search fails -2.971975 0.5367565 1.283048e-05 -1.220194e-05 -1.943579e-08 1.830828e-08 -4.727671e-13line search fails -2.939841 0.4835898 1.961752e-05 -1.803273e-05 -2.863357e-08 2.703005e-08 -1.049145e-12line search fails -2.976537 0.4964153 1.665446e-05 -1.559132e-05 -2.451256e-08 2.310134e-08 -7.684235e-13line search fails -2.929144 0.4804857 1.864328e-05 -1.71407e-05 -2.696445e-08 2.535425e-08 -9.372956e-13line search fails -2.956087 0.4790669 1.520231e-05 -1.415512e-05 -2.185192e-08 2.052632e-08 -6.227522e-13line search fails -2.938872 0.4874442 1.870484e-05 -1.717372e-05 -2.731114e-08 2.558983e-08 -9.503232e-13line search fails -2.964789 0.4923967 1.43591e-05 -1.346288e-05 -2.085343e-08 1.961521e-08 -5.635138e-13line search fails -2.914259 0.4505798 1.916316e-05 -1.750281e-05 -2.607205e-08 2.444969e-08 -9.275613e-13line search fails -2.945694 0.4354949 1.693899e-05 -1.553979e-05 -2.304305e-08 2.154401e-08 -7.251154e-13line search fails -2.909428 0.4227648 1.158782e-05 -1.052381e-05 -1.523328e-08 1.425778e-08 -3.265667e-13line search fails -2.917773 0.4739209 1.984357e-05 -1.803843e-05 -2.84502e-08 2.669246e-08 -1.046044e-12line search fails -2.931969 0.4605258 1.216008e-05 -1.119195e-05 -1.65626e-08 1.551486e-08 -3.750441e-13line search fails -2.949836 0.4814104 1.345394e-05 -1.242971e-05 -1.553938e-08 1.469237e-08 -3.916878e-13line search fails -2.941373 0.4700849 1.782501e-05 -1.64468e-05 -2.488517e-08 2.345518e-08 -8.293408e-13line search fails -2.933883 0.469149 1.837023e-05 -1.687109e-05 -2.604635e-08 2.448482e-08 -8.915629e-13line search fails -2.92171 0.4353495 1.227223e-05 -1.123285e-05 -1.638164e-08 1.523122e-08 -3.721293e-13line search fails -2.923494 0.4562141 1.491247e-05 -1.362211e-05 -2.099304e-08 1.96341e-08 -5.805159e-13line search fails -2.940738 0.4328289 1.016106e-05 -9.380445e-06 -1.363772e-08 1.265326e-08 -2.57267e-13line search fails -2.927529 0.4355865 1.431907e-05 -1.306699e-05 -1.934103e-08 1.804892e-08 -5.127904e-13line search fails -2.917215 0.4211053 1.944474e-05 -1.728919e-05 -2.608688e-08 2.40464e-08 -9.229955e-13line search fails -2.844809 0.3741905 2.413463e-05 -2.0858e-05 -3.177057e-08 2.966301e-08 -1.385482e-12line search fails -2.898876 0.4086403 1.949964e-05 -1.727726e-05 -2.586008e-08 2.395474e-08 -9.181346e-13line search fails -2.891483 0.3961763 1.328421e-05 -1.181471e-05 -1.717305e-08 1.57862e-08 -4.146398e-13line search fails -2.930703 0.4093358 2.438448e-05 -2.168273e-05 -3.307608e-08 3.043234e-08 -1.466399e-12line search fails -2.904645 0.4127529 1.473317e-05 -1.319383e-05 -1.943732e-08 1.803845e-08 -5.243696e-13line search fails -2.897751 0.415974 1.7276e-05 -1.535982e-05 -2.28844e-08 2.125645e-08 -7.218461e-13line search fails -2.907295 0.411627 1.801567e-05 -1.608656e-05 -2.391445e-08 2.220323e-08 -7.880084e-13line search fails -2.874854 0.4161108 1.659959e-05 -1.475479e-05 -2.211248e-08 2.068099e-08 -6.722018e-13line search fails -2.869442 0.4055821 1.016573e-05 -9.073716e-06 -1.292357e-08 1.203436e-08 -2.405739e-13line search fails -2.8946 0.3804792 1.952602e-05 -1.717825e-05 -2.54256e-08 2.32996e-08 -8.967072e-13line search fails -2.86604 0.3768786 1.17995e-05 -8.447985e-06 -2.715514e-08 2.603084e-08 -5.403251e-13line search fails -2.853129 0.3762311 1.071339e-05 -7.651936e-06 -2.438066e-08 2.33602e-08 -4.399503e-13line search fails -2.90326 0.4192565 1.134083e-05 -8.223797e-06 -2.708208e-08 2.583428e-08 -5.195893e-13line search fails -2.921669 0.3959634 1.248353e-05 -9.016415e-06 -2.992116e-08 2.849475e-08 -6.304423e-13line search fails -2.917714 0.4207838 1.206655e-05 -8.777965e-06 -2.916036e-08 2.780625e-08 -5.95947e-13

@@ -1,0 +1,255 @@
+During startup - Warning message:
+Setting LC_CTYPE failed, using "C" 
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:parallel':
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames,
+    dirname, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget,
+    order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply,
+    union, unique, unsplit, which, which.max, which.min
+
+
+Attaching package: 'S4Vectors'
+
+The following object is masked from 'package:base':
+
+    expand.grid
+
+Loading required package: SummarizedExperiment
+Loading required package: GenomicRanges
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: DelayedArray
+Loading required package: matrixStats
+
+Attaching package: 'matrixStats'
+
+The following objects are masked from 'package:Biobase':
+
+    anyMissing, rowMedians
+
+Loading required package: BiocParallel
+
+Attaching package: 'DelayedArray'
+
+The following objects are masked from 'package:matrixStats':
+
+    colMaxs, colMins, colRanges, rowMaxs, rowMins, rowRanges
+
+The following objects are masked from 'package:base':
+
+    aperm, apply, rowsum
+
+Loading required package: GenomicFeatures
+Loading required package: AnnotationDbi
+Loading required package: BSgenome
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: 'Biostrings'
+
+The following object is masked from 'package:DelayedArray':
+
+    type
+
+The following object is masked from 'package:base':
+
+    strsplit
+
+Loading required package: rtracklayer
+Loading required package: GenomicScores
+
+Attaching package: 'GenomicScores'
+
+The following object is masked from 'package:Biostrings':
+
+    type
+
+The following object is masked from 'package:DelayedArray':
+
+    type
+
+The following object is masked from 'package:utils':
+
+    citation
+
+Loading required package: lattice
+Loading required package: ggplot2
+Loading required package: gplots
+
+Attaching package: 'gplots'
+
+The following object is masked from 'package:rtracklayer':
+
+    space
+
+The following object is masked from 'package:IRanges':
+
+    space
+
+The following object is masked from 'package:S4Vectors':
+
+    space
+
+The following object is masked from 'package:stats':
+
+    lowess
+
+Type 'citation("pROC")' for a citation.
+
+Attaching package: 'pROC'
+
+The following objects are masked from 'package:IRanges':
+
+    cov, var
+
+The following objects are masked from 'package:S4Vectors':
+
+    cov, var
+
+The following object is masked from 'package:BiocGenerics':
+
+    var
+
+The following objects are masked from 'package:stats':
+
+    cov, smooth, var
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:Biostrings':
+
+    collapse, intersect, setdiff, setequal, union
+
+The following object is masked from 'package:XVector':
+
+    slice
+
+The following object is masked from 'package:AnnotationDbi':
+
+    select
+
+The following object is masked from 'package:matrixStats':
+
+    count
+
+The following object is masked from 'package:Biobase':
+
+    combine
+
+The following objects are masked from 'package:GenomicRanges':
+
+    intersect, setdiff, union
+
+The following object is masked from 'package:GenomeInfoDb':
+
+    intersect
+
+The following objects are masked from 'package:IRanges':
+
+    collapse, desc, intersect, setdiff, slice, union
+
+The following objects are masked from 'package:S4Vectors':
+
+    first, intersect, rename, setdiff, setequal, union
+
+The following objects are masked from 'package:BiocGenerics':
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length  is generated.
+feature 24 : 5'UTR length  is generated.
+feature 25 : cds length  is generated.
+feature 26 : gene length-exons is generated.
+feature 27 : gene length full transcript is generated.
+feature 28 : transcript exonic length is generated.
+feature 29 : transcript full length is generated.
+feature 30 : motif clustering --- number of DRACH motif neighboors within 1000bp flanking regions is generated.
+feature 31 : motif clustering ---  number of DRACH motif neighboors within 100bp flanking regions is generated.
+feature 32 : motif clustering --- distance to the nearest DRACH motif (peaked at 2000bp) is generated.
+feature 33 : motif clustering --- distance to the nearest DRACH motif (peaked at 200bp) is generated.
+feature 34 : phast cons scores 1bp is generated.
+feature 35 : phast cons scores 101bp is generated.
+no fitCons scores for population default in sequence chrX from GScores object x (fitCons.UCSC.hg19).
+no fitCons scores for population default in sequence chrM from GScores object x (fitCons.UCSC.hg19).
+feature 36 : fitness consequences scores 1bp z score is generated.
+feature 37 : fitness consequences scores 101bp z score is generated.
+feature 38 : RNA structure --- predicted hybridized region is generated.
+feature 39 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 40 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 41 : annotation feature --- miR_targeted_genes is generated.
+feature 42 : annotation feature --- TargetScan is generated.
+feature 43 : annotation feature --- Verified_miRtargets is generated.
+feature 44 : annotation feature --- METTL3_TREW is generated.
+feature 45 : annotation feature --- METTL14_TREW is generated.
+feature 46 : annotation feature --- WTAP_TREW is generated.
+feature 47 : annotation feature --- METTL16_CLIP is generated.
+feature 48 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 49 : annotation feature --- FTO_CLIP is generated.
+feature 50 : annotation feature --- FTO_eCLIP is generated.
+feature 51 : snc RNA (<= 200bp) is generated.
+feature 52 : lnc RNA (> 200bp) is generated.
+feature 53 : linc RNA (> 200bp) lncRNA which do not overlap protein-coding genes is generated.
+feature 54 : isoform number z score is generated.
+feature 55 : exon number z score is generated.
+feature 56 : house keeping genes is generated.
+feature 57 : gene level GC content z score is generated.
+feature 58 : 101bp GC content z score is generated.
+feature 59 : absolute value of the 101bp GC content z score is generated.
+Warning: Ignoring unknown parameters: binwidth, bins, pad
+line search fails -0.6734727 0.09972648 1.733514e-05 -1.645071e-05 -4.120694e-09 3.678036e-09 -1.319391e-13line search fails -0.6750065 0.1019506 1.76454e-05 -1.68544e-05 -4.214455e-09 3.783934e-09 -1.381417e-13line search fails -0.6673329 0.09057589 1.387779e-05 -1.297603e-05 -3.214657e-09 2.849e-09 -8.158105e-14line search fails -0.6878193 0.05663423 1.092356e-05 -7.879292e-06 -2.39303e-09 1.659219e-09 -3.921387e-14line search fails -0.6901812 0.09331199 2.157934e-05 -2.014372e-05 -5.079713e-09 4.460329e-09 -1.994645e-13line search fails -0.6844825 0.07348087 1.737208e-05 -1.493365e-05 -3.189353e-09 2.56364e-09 -9.36902e-14line search fails -0.6992767 -0.01195162 1.264915e-05 3.133535e-06 -2.400609e-09 -6.281017e-10 -3.233384e-14line search fails -0.6961667 -0.01278158 1.223267e-05 2.972668e-06 -2.309101e-09 -5.990305e-10 -3.002719e-14line search fails -0.6959652 -0.01043415 1.208122e-05 2.477347e-06 -2.278544e-09 -4.979336e-10 -2.876115e-14line search fails -0.7249463 -0.01705175 2.184738e-05 6.554945e-06 -4.182808e-09 -1.339079e-09 -1.00161e-13line search fails -0.7244788 -0.01707933 2.201954e-05 6.442084e-06 -4.20496e-09 -1.318639e-09 -1.010861e-13line search fails -0.7271275 -0.0203858 2.274881e-05 7.459982e-06 -4.393608e-09 -1.535556e-09 -1.114046e-13line search fails -0.7199376 -0.006467432 1.818019e-05 3.661229e-06 -3.502109e-09 -7.216766e-10 -6.631124e-14line search fails -0.7085149 -0.01519291 1.590846e-05 4.492374e-06 -3.015629e-09 -9.099919e-10 -5.206203e-14line search fails -0.7249265 -0.01233695 1.067201e-05 2.37984e-06 -2.035769e-09 -4.849662e-10 -2.287988e-14line search fails -0.7249996 -0.01152265 2.144911e-05 4.527902e-06 -4.08806e-09 -9.218199e-10 -9.185917e-14line search fails -0.7234556 -0.01210486 2.094214e-05 4.576628e-06 -3.985428e-09 -9.324063e-10 -8.773067e-14line search fails -0.71633 -0.01595818 1.844012e-05 5.204716e-06 -3.516238e-09 -1.06023e-09 -7.035805e-14line search fails -0.7155181 -0.01609221 1.820916e-05 5.173159e-06 -3.464261e-09 -1.053819e-09 -6.853288e-14line search fails -0.7140481 -0.0151736 2.207838e-05 6.063754e-06 -3.3592e-09 -9.858894e-10 -8.014389e-14line search fails -0.733864 -0.02492551 2.507523e-05 1.110365e-05 -4.982171e-09 -2.27277e-09 -1.501651e-13line search fails -0.7265837 -0.02528829 2.107167e-05 8.693038e-06 -4.121369e-09 -1.788056e-09 -1.023878e-13line search fails -0.7259271 -0.0329689 2.35545e-05 1.244572e-05 -4.662789e-09 -2.567286e-09 -1.417814e-13line search fails -0.7174608 -0.01833786 1.839938e-05 5.813471e-06 -3.57178e-09 -1.186642e-09 -7.261703e-14line search fails -0.7117592 -0.02170805 1.687159e-05 6.233879e-06 -3.267965e-09 -1.272525e-09 -6.306853e-14line search fails -0.7118782 -0.02325548 1.725559e-05 7.00694e-06 -3.331552e-09 -1.428225e-09 -6.749537e-14line search fails -0.728825 -0.02795518 2.403072e-05 1.116432e-05 -4.769144e-09 -2.295373e-09 -1.402323e-13line search fails -0.7274372 -0.0299055 2.396448e-05 1.175886e-05 -4.727078e-09 -2.420574e-09 -1.417451e-13line search fails -0.7275604 -0.02666879 2.36008e-05 1.040988e-05 -4.62985e-09 -2.140286e-09 -1.315483e-13line search fails -0.7271626 -0.009713448 2.152282e-05 3.650944e-06 -4.139621e-09 -7.45849e-10 -9.181936e-14line search fails -0.7304147 -0.01269313 2.261465e-05 5.220599e-06 -4.365551e-09 -1.064469e-09 -1.042826e-13line search fails -0.7279232 -0.01657382 2.253945e-05 6.372641e-06 -4.346321e-09 -1.305389e-09 -1.062825e-13line search fails -0.7177806 -0.01721198 1.843444e-05 5.426552e-06 -3.55692e-09 -1.108326e-09 -7.158422e-14line search fails -0.721313 -0.02203143 2.028864e-05 7.240667e-06 -3.934614e-09 -1.487486e-09 -9.059835e-14line search fails -0.7192803 -0.02504842 2.026427e-05 8.373498e-06 -3.93948e-09 -1.717941e-09 -9.421584e-14line search fails -0.7241565 -0.01862885 2.599563e-05 8.042029e-06 -4.048498e-09 -1.319219e-09 -1.158524e-13line search fails -1.216203 0.1977097 1.006787e-05 -7.827663e-06 -3.547404e-09 2.571333e-09 -5.584233e-14line search fails -1.210071 0.1954151 1.219489e-05 -9.357908e-06 -4.203882e-09 3.08119e-09 -8.00994e-14line search fails -1.206933 0.1908485 1.180786e-05 -8.943731e-06 -4.082252e-09 2.940677e-09 -7.450329e-14line search fails -1.209257 0.1932296 1.894825e-05 -1.42253e-05 -6.50454e-09 4.732837e-09 -1.905757e-13line search fails -1.213091 0.1992956 1.030903e-05 -7.977157e-06 -3.692166e-09 2.634377e-09 -5.907751e-14line search fails -1.221682 0.1914815 1.009953e-05 -7.815103e-06 -3.581991e-09 2.546528e-09 -5.60778e-14line search fails -1.211704 0.1913284 1.118725e-05 -8.627592e-06 -3.862797e-09 2.812165e-09 -6.747627e-14line search fails -1.196416 0.1799792 1.067816e-05 -8.105168e-06 -3.548403e-09 2.59891e-09 -5.895503e-14line search fails -1.203172 0.1991128 1.180442e-05 -9.079535e-06 -4.107328e-09 3.000097e-09 -7.572409e-14line search fails -1.20425 0.1980382 1.423422e-05 -1.087246e-05 -4.879001e-09 3.602252e-09 -1.086141e-13line search fails -1.208136 0.191265 1.495385e-05 -1.124386e-05 -5.173111e-09 3.72226e-09 -1.192105e-13line search fails -1.210956 0.185829 1.907107e-05 -1.41825e-05 -6.49048e-09 4.672466e-09 -1.900476e-13line search fails -1.224489 0.1948484 1.787546e-05 -1.345404e-05 -6.424423e-09 4.496103e-09 -1.753302e-13line search fails -1.21366 0.1880452 1.448832e-05 -1.095253e-05 -5.027951e-09 3.594453e-09 -1.122149e-13line search fails -1.22226 0.1967434 2.248893e-05 -1.684569e-05 -8.050632e-09 5.681135e-09 -2.767528e-13line search fails -1.208792 0.1849021 1.828547e-05 -1.367619e-05 -6.197705e-09 4.495796e-09 -1.748133e-13line search fails -1.203597 0.1946425 1.519639e-05 -1.148657e-05 -5.260071e-09 3.807187e-09 -1.236656e-13line search fails -1.22997 0.1951076 2.402606e-05 -1.798976e-05 -8.56913e-09 6.054072e-09 -3.147937e-13line search fails -1.218839 0.1883621 2.053373e-05 -1.538506e-05 -7.095103e-09 5.098867e-09 -2.241353e-13line search fails -1.235179 0.1863764 2.819789e-05 -2.073418e-05 -1.005863e-08 6.948371e-09 -4.277008e-13line search fails -1.218677 0.174393 3.193387e-05 -2.303623e-05 -1.07504e-08 7.609601e-09 -5.185983e-13line search fails -1.206354 0.1788938 2.065194e-05 -1.543689e-05 -5.513365e-09 4.012751e-09 -1.758061e-13line search fails -1.226785 0.1896193 1.976394e-05 -1.477769e-05 -7.001146e-09 4.907261e-09 -2.108882e-13line search fails -1.209544 0.1792062 1.753082e-05 -1.2987e-05 -5.952337e-09 4.23346e-09 -1.593293e-13line search fails -1.215106 0.1763852 2.092877e-05 -1.54532e-05 -7.03739e-09 5.038041e-09 -2.251378e-13line search fails -1.214726 0.1835046 2.895617e-05 -2.108727e-05 -9.903378e-09 7.030678e-09 -4.350217e-13line search fails -1.214247 0.1727282 2.907472e-05 -2.100479e-05 -9.715698e-09 6.903783e-09 -4.274937e-13line search fails -1.208737 0.1868342 1.945883e-05 -1.455858e-05 -6.663755e-09 4.802002e-09 -1.995792e-13line search fails -1.209102 0.178044 2.031183e-05 -1.508831e-05 -6.799674e-09 4.921933e-09 -2.123775e-13line search fails -1.233363 0.1944504 2.510213e-05 -1.869354e-05 -8.986325e-09 6.298856e-09 -3.433238e-13line search fails -1.219379 0.1850606 1.233124e-05 -9.144604e-06 -4.238024e-09 3.034387e-09 -8.000836e-14line search fails -1.213461 0.1781979 2.495024e-05 -1.824282e-05 -8.379074e-09 6.00287e-09 -3.185692e-13line search fails -1.205396 0.1916902 1.118877e-05 -8.548148e-06 -3.928451e-09 2.799082e-09 -6.788151e-14line search fails -1.193221 0.1827581 1.048794e-05 -7.977782e-06 -3.537209e-09 2.571001e-09 -5.760891e-14line search fails -1.21993 0.1919503 1.678261e-05 -1.266886e-05 -4.711349e-09 3.361408e-09 -1.21654e-13line search fails -1.230974 0.1844084 3.886663e-05 -2.820291e-05 -1.348195e-08 9.494752e-09 -7.917775e-13line search fails -1.227708 0.1781104 3.758719e-05 -2.714227e-05 -1.273157e-08 9.043321e-09 -7.240004e-13line search fails -1.234101 0.1964343 2.247425e-05 -1.685771e-05 -8.125851e-09 5.674892e-09 -2.782881e-13line search fails -1.213289 0.1806332 2.474888e-05 -1.808772e-05 -8.393681e-09 5.974148e-09 -3.157929e-13line search fails -1.229051 0.1872559 2.203453e-05 -1.645286e-05 -7.811953e-09 5.461967e-09 -2.619977e-13line search fails -1.214218 0.1822131 2.306715e-05 -1.7054e-05 -7.891345e-09 5.626299e-09 -2.779817e-13line search fails -1.211595 0.1796805 2.172421e-05 -1.609722e-05 -7.303651e-09 5.276399e-09 -2.436014e-13line search fails -1.236575 0.182676 3.520596e-05 -2.540578e-05 -1.259012e-08 8.546942e-09 -6.603889e-13line search fails -1.225861 0.1821573 1.865684e-05 -1.343214e-05 -6.475231e-09 4.51037e-09 -1.813913e-13line search fails -1.219864 0.1799623 4.049485e-05 -2.893329e-05 -1.37794e-08 9.704636e-09 -8.387815e-13line search fails -1.230634 0.1908163 2.449236e-05 -1.796875e-05 -8.772272e-09 6.055605e-09 -3.236653e-13line search fails -1.227079 0.1885505 3.740933e-05 -2.717009e-05 -1.306751e-08 9.188906e-09 -7.3851e-13line search fails -1.216739 0.1843825 3.757994e-05 -2.750966e-05 -1.028958e-08 7.345559e-09 -5.887555e-13line search fails -1.272573 0.1926032 5.112527e-05 -3.689807e-05 -1.890496e-08 1.271315e-08 -1.435612e-12line search fails -1.254325 0.1889501 6.930518e-05 -4.89113e-05 -2.469637e-08 1.69172e-08 -2.539029e-12line search fails -1.241387 0.1913134 4.552114e-05 -3.309036e-05 -1.606908e-08 1.129542e-08 -1.105252e-12line search fails -1.251576 0.194419 3.349863e-05 -2.450576e-05 -1.223314e-08 8.349714e-09 -6.144095e-13line search fails -1.233722 0.1921848 1.787004e-05 -1.299114e-05 -6.296877e-09 4.412045e-09 -1.69843e-13line search fails -1.230626 0.1832287 4.750855e-05 -3.380062e-05 -1.630373e-08 1.144204e-08 -1.161314e-12line search fails -1.234091 0.1962177 5.493854e-05 -3.918502e-05 -1.953637e-08 1.360213e-08 -1.606299e-12line search fails -1.245628 0.1948539 2.651077e-05 -1.889583e-05 -9.675687e-09 6.552511e-09 -3.80325e-13line search fails -1.235998 0.1889821 8.64085e-05 -6.127209e-05 -2.382688e-08 1.691364e-08 -3.095179e-12line search fails -1.241074 0.186334 6.011463e-05 -4.235917e-05 -2.118208e-08 1.455383e-08 -1.889841e-12line search fails -1.239727 0.1834538 8.059235e-05 -5.576885e-05 -2.791833e-08 1.926588e-08 -3.32444e-12line search fails -1.241444 0.1920509 6.039584e-05 -4.31579e-05 -2.140662e-08 1.489338e-08 -1.935638e-12line search fails -1.243297 0.1800917 5.945149e-05 -4.172756e-05 -2.088857e-08 1.421511e-08 -1.835018e-12line search fails -1.232062 0.1717484 7.770769e-05 -5.317536e-05 -2.653054e-08 1.808936e-08 -3.023536e-12line search fails -1.265564 0.199672 2.449874e-05 -1.777796e-05 -9.104201e-09 6.177186e-09 -3.328592e-13line search fails -1.250804 0.195454 6.674966e-05 -4.762812e-05 -2.388831e-08 1.657753e-08 -2.384093e-12line search fails -1.244671 0.1909158 2.436093e-05 -1.79239e-05 -8.806646e-09 6.015314e-09 -3.223559e-13line search fails -1.233768 0.1888836 3.410947e-05 -2.485834e-05 -1.196917e-08 8.384355e-09 -6.166831e-13line search fails -1.256837 0.1876626 6.510259e-05 -4.550192e-05 -2.38433e-08 1.576781e-08 -2.269726e-12line search fails -1.26257 0.1896929 6.114386e-05 -4.308808e-05 -2.25607e-08 1.493218e-08 -2.022847e-12line search fails -1.251038 0.1801503 6.802159e-05 -4.719934e-05 -2.40778e-08 1.616459e-08 -2.400768e-12line search fails -1.251946 0.1880529 7.36568e-05 -5.112395e-05 -2.637899e-08 1.775473e-08 -2.850684e-12line search fails -1.267499 0.1873508 8.077216e-05 -5.508936e-05 -3.00558e-08 1.929605e-08 -3.490679e-12line search fails -1.245918 0.179417 0.0001596442 -0.0001075533 -4.423645e-08 3.008085e-08 -1.029738e-11line search fails -1.262007 0.1826288 4.171034e-05 -2.95413e-05 -1.523159e-08 1.000354e-08 -9.308327e-13line search fails -1.256292 0.1842748 5.019516e-05 -3.47958e-05 -1.84445e-08 1.193756e-08 -1.341201e-12line search fails -1.282668 0.1918995 8.559169e-05 -5.964536e-05 -3.195353e-08 2.09521e-08 -3.984652e-12line search fails -1.278164 0.1977739 8.362108e-05 -5.880943e-05 -3.115883e-08 2.077393e-08 -3.827238e-12line search fails -1.269524 0.1809926 4.819657e-05 -3.388775e-05 -1.77462e-08 1.151274e-08 -1.245447e-12line search fails -1.277433 0.1945046 8.938654e-05 -6.17416e-05 -3.380997e-08 2.187721e-08 -4.372891e-12line search fails -1.259611 0.1751572 7.250314e-05 -5.022643e-05 -2.574446e-08 1.712856e-08 -2.726861e-12line search fails -1.251747 0.1722283 8.140533e-05 -5.570409e-05 -2.81883e-08 1.897638e-08 -3.35174e-12line search fails -1.286912 0.1900519 8.200744e-05 -5.791147e-05 -3.046614e-08 2.021242e-08 -3.668981e-12line search fails -1.27946 0.1867106 9.720339e-05 -6.849692e-05 -3.519185e-08 2.38777e-08 -5.056316e-12line search fails -1.286542 0.1814012 8.737871e-05 -6.087039e-05 -3.223277e-08 2.108016e-08 -4.099615e-12line search fails -1.249628 0.1782522 8.973617e-05 -6.185733e-05 -3.105798e-08 2.127953e-08 -4.103319e-12line search fails -1.269768 0.1886059 6.463982e-05 -4.547534e-05 -2.374251e-08 1.57249e-08 -2.249807e-12line search fails -1.254156 0.1712529 9.873098e-05 -6.685572e-05 -3.418173e-08 2.289833e-08 -4.90568e-12

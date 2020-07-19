@@ -1,0 +1,1702 @@
+During startup - Warning message:
+Setting LC_CTYPE failed, using "C" 
+Loading required package: methods
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:parallel':
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, append, as.data.frame, cbind, colMeans, colnames,
+    colSums, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, lengths, Map, mapply, match,
+    mget, order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rowMeans, rownames, rowSums, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which, which.max, which.min
+
+
+Attaching package: 'S4Vectors'
+
+The following object is masked from 'package:base':
+
+    expand.grid
+
+Loading required package: SummarizedExperiment
+Loading required package: GenomicRanges
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: DelayedArray
+Loading required package: matrixStats
+
+Attaching package: 'matrixStats'
+
+The following objects are masked from 'package:Biobase':
+
+    anyMissing, rowMedians
+
+
+Attaching package: 'DelayedArray'
+
+The following objects are masked from 'package:matrixStats':
+
+    colMaxs, colMins, colRanges, rowMaxs, rowMins, rowRanges
+
+The following object is masked from 'package:base':
+
+    apply
+
+Loading required package: GenomicFeatures
+Loading required package: AnnotationDbi
+Loading required package: BSgenome
+Loading required package: Biostrings
+Loading required package: XVector
+
+Attaching package: 'Biostrings'
+
+The following object is masked from 'package:DelayedArray':
+
+    type
+
+The following object is masked from 'package:base':
+
+    strsplit
+
+Loading required package: rtracklayer
+Loading required package: GenomicScores
+
+Attaching package: 'GenomicScores'
+
+The following object is masked from 'package:Biostrings':
+
+    type
+
+The following object is masked from 'package:DelayedArray':
+
+    type
+
+The following object is masked from 'package:utils':
+
+    citation
+
+Loading required package: lattice
+Loading required package: ggplot2
+Loading required package: gplots
+
+Attaching package: 'gplots'
+
+The following object is masked from 'package:rtracklayer':
+
+    space
+
+The following object is masked from 'package:IRanges':
+
+    space
+
+The following object is masked from 'package:S4Vectors':
+
+    space
+
+The following object is masked from 'package:stats':
+
+    lowess
+
+Type 'citation("pROC")' for a citation.
+
+Attaching package: 'pROC'
+
+The following objects are masked from 'package:IRanges':
+
+    cov, var
+
+The following objects are masked from 'package:S4Vectors':
+
+    cov, var
+
+The following object is masked from 'package:BiocGenerics':
+
+    var
+
+The following objects are masked from 'package:stats':
+
+    cov, smooth, var
+
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:Biostrings':
+
+    collapse, intersect, setdiff, setequal, union
+
+The following object is masked from 'package:XVector':
+
+    slice
+
+The following object is masked from 'package:AnnotationDbi':
+
+    select
+
+The following object is masked from 'package:matrixStats':
+
+    count
+
+The following object is masked from 'package:Biobase':
+
+    combine
+
+The following objects are masked from 'package:GenomicRanges':
+
+    intersect, setdiff, union
+
+The following object is masked from 'package:GenomeInfoDb':
+
+    intersect
+
+The following objects are masked from 'package:IRanges':
+
+    collapse, desc, intersect, setdiff, slice, union
+
+The following objects are masked from 'package:S4Vectors':
+
+    first, intersect, rename, setdiff, setequal, union
+
+The following objects are masked from 'package:BiocGenerics':
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+feature 1 : 5'utr is generated.
+feature 2 : 3'utr is generated.
+feature 3 : cds is generated.
+feature 4 : stop codons 203bp is generated.
+feature 5 : start codons 203bp is generated.
+feature 6 : downstream 100bp of transcription start site is generated.
+feature 7 : downstream 100bp of transcription start site with sequence A is generated.
+feature 8 : exon with stop codon is generated.
+feature 9 : alternatively spliced exons is generated.
+feature 10 : constitutively spliced exons is generated.
+feature 11 : internal exons is generated.
+feature 12 : long exons (length > 400bp) is generated.
+feature 13 : the last exon is generated.
+feature 14 : 5' start 400 bp of the last exon is generated.
+feature 15 : 5' start 400 bp of the last exon including stop codons is generated.
+feature 16 : intron is generated.
+feature 17 : relative positioning on 5'utr is generated.
+feature 18 : relative positioning on 3'utr is generated.
+feature 19 : relative positioning on cds is generated.
+feature 20 : relative positioning on exon is generated.
+feature 21 : distance to the upstream (5' end) splicing junction is generated.
+feature 22 : distance to the downstream (3' end) splicing junction is generated.
+feature 23 : 3'UTR length (z-score) is generated.
+feature 24 : 5'UTR length (z-score) is generated.
+feature 25 : cds length (z-score) is generated.
+feature 26 : gene length-exons (z-score) is generated.
+feature 27 : gene length full transcript (z-score) is generated.
+feature 28 : clustering indicators --- number of neighboors within 1000bp flanking regions is generated.
+feature 29 : clustering indicators ---  number of neighboors within 100bp flanking regions is generated.
+feature 30 : clustering indicators --- distance to the nearest neigboors (peaked at 2000bp) is generated.
+feature 31 : clustering indicators --- distance to the nearest neigboors (peaked at 200bp) is generated.
+feature 32 : phast cons scores 1bp is generated.
+feature 33 : phast cons scores 101bp is generated.
+feature 34 : fitness consequences scores 1bp z score is generated.
+feature 35 : fitness consequences scores 101bp z score is generated.
+feature 36 : RNA structure --- predicted hybridized region is generated.
+feature 37 : RNA structure --- inferred loop structures between hybridized region is generated.
+feature 38 : annotation feature --- HNRNPC_eCLIP is generated.
+feature 39 : annotation feature --- miR_targeted_genes is generated.
+feature 40 : annotation feature --- TargetScan is generated.
+feature 41 : annotation feature --- Verified_miRtargets is generated.
+feature 42 : annotation feature --- METTL3_TREW is generated.
+feature 43 : annotation feature --- METTL14_TREW is generated.
+feature 44 : annotation feature --- WTAP_TREW is generated.
+feature 45 : annotation feature --- METTL16_CLIP is generated.
+feature 46 : annotation feature --- ALKBH5_PARCLIP is generated.
+feature 47 : annotation feature --- FTO_CLIP is generated.
+feature 48 : annotation feature --- FTO_eCLIP is generated.
+feature 49 : snc RNA (<= 200bp) is generated.
+feature 50 : lnc RNA (> 200bp) is generated.
+feature 51 : isoform number z score is generated.
+feature 52 : exon number z score is generated.
+feature 53 : house keeping genes is generated.
+feature 54 : gene level GC content z score is generated.
+feature 55 : 101bp GC content z score is generated.
+feature 56 : absolute value of the 101bp GC content z score is generated.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Error in `$<-.data.frame`(`*tmp*`, pred_class2, value = structure(c(1L,  : 
+  replacement has 3116 rows, data has 5216
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(as.numeric(testing$pred_class2), testing$class) : 
+  Number of predictions in each run must be equal to the number of labels for each run.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Error in `$<-.data.frame`(`*tmp*`, pred_class2, value = structure(c(1L,  : 
+  replacement has 3116 rows, data has 5216
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(as.numeric(testing$pred_class2), testing$class) : 
+  Number of predictions in each run must be equal to the number of labels for each run.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Error in `$<-.data.frame`(`*tmp*`, pred_class2, value = structure(c(1L,  : 
+  replacement has 3116 rows, data has 5216
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(as.numeric(testing$pred_class2), testing$class) : 
+  Number of predictions in each run must be equal to the number of labels for each run.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Error in `$<-.data.frame`(`*tmp*`, pred_class2, value = structure(c(1L,  : 
+  replacement has 3116 rows, data has 5216
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(as.numeric(testing$pred_class2), testing$class) : 
+  Number of predictions in each run must be equal to the number of labels for each run.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Error in `$<-.data.frame`(`*tmp*`, pred_class2, value = structure(c(1L,  : 
+  replacement has 3116 rows, data has 5216
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(as.numeric(testing$pred_class2), testing$class) : 
+  Number of predictions in each run must be equal to the number of labels for each run.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Error in `$<-.data.frame`(`*tmp*`, pred_class2, value = structure(c(1L,  : 
+  replacement has 3116 rows, data has 5216
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(as.numeric(testing$pred_class2), testing$class) : 
+  Number of predictions in each run must be equal to the number of labels for each run.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Error in `$<-.data.frame`(`*tmp*`, pred_class2, value = structure(c(1L,  : 
+  replacement has 3116 rows, data has 5216
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(as.numeric(testing$pred_class2), testing$class) : 
+  Number of predictions in each run must be equal to the number of labels for each run.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Error in `$<-.data.frame`(`*tmp*`, pred_class2, value = structure(c(1L,  : 
+  replacement has 3116 rows, data has 5216
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(as.numeric(testing$pred_class2), testing$class) : 
+  Number of predictions in each run must be equal to the number of labels for each run.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Error in `$<-.data.frame`(`*tmp*`, pred_class2, value = structure(c(1L,  : 
+  replacement has 3116 rows, data has 5216
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(as.numeric(testing$pred_class2), testing$class) : 
+  Number of predictions in each run must be equal to the number of labels for each run.
+Warning in preProcess.default(method = c("center", "scale"), x = c(0, 0,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Warning in preProcess.default(thresh = 0.95, k = 5, freqCut = 19, uniqueCut = 10,  :
+  These variables have zero variances: V58, V61, V62, V63, V64, V65, V66
+Error in `$<-.data.frame`(`*tmp*`, pred_class2, value = structure(c(1L,  : 
+  replacement has 3116 rows, data has 5216
+In addition: There were 17 warnings (use warnings() to see them)
+Error in prediction(as.numeric(testing$pred_class2), testing$class) : 
+  Number of predictions in each run must be equal to the number of labels for each run.
