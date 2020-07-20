@@ -32,7 +32,8 @@ storeMatrix <- matrix(NA, ncol = 20, nrow = 1500)
 
 list1 <- list()
 
-  for (i in 1:10){
+i <- 1
+
     # get the negative sample 
     storeNegMatrix[i,] <- paste("/home/kunqi/m6A reader/eIF3a/Full/negative",i,".rds",sep = "")  
     testN_read <- readRDS(storeNegMatrix[i,])
@@ -53,19 +54,21 @@ list1 <- list()
     num <- c(1:length(testing_All))
     list1[[(2*i)]] <- data.frame(num,testing_All)
     
-    } #end the 10 loops
+    x <- merge(x = list1[[(2*i-1)]],y=list1[[(2*i)]],by = "num",all.x =T)
+    z <- as.data.frame(x)
 
-  for (i in 1:10) {
-    if (i==1) {
-      x <- merge(x = list1[[(2*i-1)]],y=list1[[(2*i)]],by = "num",all.x =T)
-      z <- as.data.frame(x)
-    }else{
-      x <- merge(x = list1[[(2*i-1)]],y=list1[[(2*i)]],by = "num",all.x =T)
-      y <- as.data.frame(x)
-      z <- cbind(z,y)
-    }
-  }
+write.csv(z, file = "/home/yuxuan.wu/deep_learning/sequence_data/eif3a_full_40.csv")
+
+  # for (i in 1:10) {
+  #   if (i==1) {
+  #     x <- merge(x = list1[[(2*i-1)]],y=list1[[(2*i)]],by = "num",all.x =T)
+  #     z <- as.data.frame(x)
+  #   }else{
+  #     x <- merge(x = list1[[(2*i-1)]],y=list1[[(2*i)]],by = "num",all.x =T)
+  #     y <- as.data.frame(x)
+  #     z <- cbind(z,y)
+  #   }
+  # }
 
 
-write.csv(z, file = "/home/yuxuan.wu/eif3a_full_40.csv")
 
