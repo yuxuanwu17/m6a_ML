@@ -11,18 +11,22 @@ library(plyr)
 # cl <- makePSOCKcluster(10)
 # registerDoParallel(cl)
 
+len <- c(20,40,60,80)
+
 set.seed(2123)
+
+for (len in len){
 
 # positive_Full
 FulleIF3a_Pos <- readRDS("/home/kunqi/m6A reader/eIF3a/Full/postive.rds")
 
 # testing_sample
 index<- grep(1,FulleIF3a_Pos$GSE65004)
-testT_testing <- as.character(DNAStringSet(Views(Hsapiens,FulleIF3a_Pos[index]+20)))
+testT_testing <- as.character(DNAStringSet(Views(Hsapiens,FulleIF3a_Pos[index]+len)))
 
 
 # positive sample (all)
-testT<-as.character(DNAStringSet(Views(Hsapiens,FulleIF3a_Pos[-index]+20)))
+testT<-as.character(DNAStringSet(Views(Hsapiens,FulleIF3a_Pos[-index]+len)))
 
 
 
@@ -42,8 +46,8 @@ i <- 1
     testN <- testN_read[-index]
     
     #prepare the sample used in other encoding method as a character
-    testN <- as.character(DNAStringSet(Views(Hsapiens,testN+20)))
-    testN_testing <- as.character(DNAStringSet(Views(Hsapiens,testN_read[index]+20)))
+    testN <- as.character(DNAStringSet(Views(Hsapiens,testN+len)))
+    testN_testing <- as.character(DNAStringSet(Views(Hsapiens,testN_read[index]+len)))
     
     train_All <-c(testT,testN) 
     testing_All<- c(testT_testing,testN_testing)
@@ -57,7 +61,9 @@ i <- 1
     x <- merge(x = list1[[(2*i-1)]],y=list1[[(2*i)]],by = "num",all.x =T)
     z <- as.data.frame(x)
 
-write.csv(z, file = "/home/yuxuan.wu/deep_learning/sequence_data/eif3a_full_40.csv")
+write.csv(z, file = paste("/home/yuxuan.wu/deep_learning/sequence_data/eif3a_full_",len,".csv",sep=""))
+
+}
 
   # for (i in 1:10) {
   #   if (i==1) {
